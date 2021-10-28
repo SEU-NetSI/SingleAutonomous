@@ -46,7 +46,7 @@ fig, ax = plt.subplots()
 
 def display(front, roiindex):
     plt.cla()
-    print(roiindex)
+    print(roiindex, front)
     try:
         x = map.get(roiindex)[0]
         y = map.get(roiindex)[1]
@@ -54,7 +54,7 @@ def display(front, roiindex):
     except:
         return
     
-    print(data)
+    # print(data)
     im = ax.imshow(data)
     for i in range(4):
         for j in range(4):
@@ -72,13 +72,13 @@ bucket = "myinflux"
 client = InfluxDBClient(url="http://localhost:8086", token=token)
 write_api = client.write_api(write_options=SYNCHRONOUS)
 
-def store(distance_front, roiindex_front):
+def store(distance, roiindex):
     try:
-        point = Point("mem").tag("roiindex_front", roiindex_front).field("distance_front", round(distance_front * 100, 2)).time(datetime.utcnow(), WritePrecision.NS)    
+        point = Point("mem").tag("roiindex", roiindex).field("distance", round(distance * 100, 2)).time(datetime.utcnow(), WritePrecision.NS)    
         write_api.write(bucket, org, point)
     except:
         print("Something unexpected happened.")
-    print(distance_front, roiindex_front)
+    print(distance, roiindex)
     
 
 if __name__ == '__main__':
@@ -90,9 +90,9 @@ if __name__ == '__main__':
         with Multiranger(scf) as multi_ranger:
             while True:
                 if MODE == "display":
-                    display(multi_ranger.front, multi_ranger.roiindex)
+                    display(multi_ranger.single, multi_ranger.roiindex)
                 elif MODE == "store":
-                    store(multi_ranger.front, multi_ranger.roiindex)
+                    store(multi_ranger.single, multi_ranger.roiindex)
                 else:
                     print("MODE SELECTION ERROR")
 

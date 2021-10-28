@@ -1779,7 +1779,7 @@
     },
     "bcLighthouse4": {
       "__class__": "ParamTocElement",
-      "ident": 210,
+      "ident": 214,
       "group": "deck",
       "name": "bcLighthouse4",
       "ctype": "uint8_t",
@@ -1788,7 +1788,7 @@
     },
     "bcActiveMarker": {
       "__class__": "ParamTocElement",
-      "ident": 217,
+      "ident": 221,
       "group": "deck",
       "name": "bcActiveMarker",
       "ctype": "uint8_t",
@@ -1797,7 +1797,7 @@
     },
     "bcAIDeck": {
       "__class__": "ParamTocElement",
-      "ident": 218,
+      "ident": 222,
       "group": "deck",
       "name": "bcAIDeck",
       "ctype": "uint8_t",
@@ -1986,10 +1986,48 @@
       "access": 0
     }
   },
+  "mrdeck": {
+    "topLeftX": {
+      "__class__": "ParamTocElement",
+      "ident": 210,
+      "group": "mrdeck",
+      "name": "topLeftX",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "topLeftY": {
+      "__class__": "ParamTocElement",
+      "ident": 211,
+      "group": "mrdeck",
+      "name": "topLeftY",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "botRightX": {
+      "__class__": "ParamTocElement",
+      "ident": 212,
+      "group": "mrdeck",
+      "name": "botRightX",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "botRightY": {
+      "__class__": "ParamTocElement",
+      "ident": 213,
+      "group": "mrdeck",
+      "name": "botRightY",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    }
+  },
   "activeMarker": {
     "front": {
       "__class__": "ParamTocElement",
-      "ident": 211,
+      "ident": 215,
       "group": "activeMarker",
       "name": "front",
       "ctype": "uint8_t",
@@ -1998,7 +2036,7 @@
     },
     "back": {
       "__class__": "ParamTocElement",
-      "ident": 212,
+      "ident": 216,
       "group": "activeMarker",
       "name": "back",
       "ctype": "uint8_t",
@@ -2007,7 +2045,7 @@
     },
     "left": {
       "__class__": "ParamTocElement",
-      "ident": 213,
+      "ident": 217,
       "group": "activeMarker",
       "name": "left",
       "ctype": "uint8_t",
@@ -2016,7 +2054,7 @@
     },
     "right": {
       "__class__": "ParamTocElement",
-      "ident": 214,
+      "ident": 218,
       "group": "activeMarker",
       "name": "right",
       "ctype": "uint8_t",
@@ -2025,7 +2063,7 @@
     },
     "mode": {
       "__class__": "ParamTocElement",
-      "ident": 215,
+      "ident": 219,
       "group": "activeMarker",
       "name": "mode",
       "ctype": "uint8_t",
@@ -2034,7 +2072,7 @@
     },
     "poll": {
       "__class__": "ParamTocElement",
-      "ident": 216,
+      "ident": 220,
       "group": "activeMarker",
       "name": "poll",
       "ctype": "uint8_t",
@@ -2045,7 +2083,7 @@
   "firmware": {
     "revision0": {
       "__class__": "ParamTocElement",
-      "ident": 219,
+      "ident": 223,
       "group": "firmware",
       "name": "revision0",
       "ctype": "uint32_t",
@@ -2054,7 +2092,7 @@
     },
     "revision1": {
       "__class__": "ParamTocElement",
-      "ident": 220,
+      "ident": 224,
       "group": "firmware",
       "name": "revision1",
       "ctype": "uint16_t",
@@ -2063,7 +2101,7 @@
     },
     "modified": {
       "__class__": "ParamTocElement",
-      "ident": 221,
+      "ident": 225,
       "group": "firmware",
       "name": "modified",
       "ctype": "uint8_t",
@@ -2074,7 +2112,7 @@
   "lighthouse": {
     "method": {
       "__class__": "ParamTocElement",
-      "ident": 222,
+      "ident": 226,
       "group": "lighthouse",
       "name": "method",
       "ctype": "uint8_t",
@@ -2083,7 +2121,7 @@
     },
     "bsCalibReset": {
       "__class__": "ParamTocElement",
-      "ident": 223,
+      "ident": 227,
       "group": "lighthouse",
       "name": "bsCalibReset",
       "ctype": "uint8_t",
@@ -2092,7 +2130,7 @@
     },
     "systemType": {
       "__class__": "ParamTocElement",
-      "ident": 224,
+      "ident": 228,
       "group": "lighthouse",
       "name": "systemType",
       "ctype": "uint8_t",
@@ -2101,7 +2139,7 @@
     },
     "sweepStd": {
       "__class__": "ParamTocElement",
-      "ident": 225,
+      "ident": 229,
       "group": "lighthouse",
       "name": "sweepStd",
       "ctype": "float",
@@ -2110,7 +2148,7 @@
     },
     "sweepStd2": {
       "__class__": "ParamTocElement",
-      "ident": 226,
+      "ident": 230,
       "group": "lighthouse",
       "name": "sweepStd2",
       "ctype": "float",
@@ -2119,7 +2157,7 @@
     },
     "enLhRawStream": {
       "__class__": "ParamTocElement",
-      "ident": 227,
+      "ident": 231,
       "group": "lighthouse",
       "name": "enLhRawStream",
       "ctype": "uint8_t",

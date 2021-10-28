@@ -56,7 +56,7 @@
     },
     "x": {
       "__class__": "LogTocElement",
-      "ident": 109,
+      "ident": 113,
       "group": "gyro",
       "name": "x",
       "ctype": "float",
@@ -65,7 +65,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 110,
+      "ident": 114,
       "group": "gyro",
       "name": "y",
       "ctype": "float",
@@ -74,7 +74,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 111,
+      "ident": 115,
       "group": "gyro",
       "name": "z",
       "ctype": "float",
@@ -246,7 +246,7 @@
     },
     "canfly": {
       "__class__": "LogTocElement",
-      "ident": 39,
+      "ident": 43,
       "group": "sys",
       "name": "canfly",
       "ctype": "uint8_t",
@@ -255,7 +255,7 @@
     },
     "isFlying": {
       "__class__": "LogTocElement",
-      "ident": 40,
+      "ident": 44,
       "group": "sys",
       "name": "isFlying",
       "ctype": "uint8_t",
@@ -264,7 +264,7 @@
     },
     "isTumbled": {
       "__class__": "LogTocElement",
-      "ident": 41,
+      "ident": 45,
       "group": "sys",
       "name": "isTumbled",
       "ctype": "uint8_t",
@@ -420,12 +420,48 @@
       "ctype": "uint16_t",
       "pytype": "<H",
       "access": 0
+    },
+    "topleftx": {
+      "__class__": "LogTocElement",
+      "ident": 39,
+      "group": "range",
+      "name": "topleftx",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "toplefty": {
+      "__class__": "LogTocElement",
+      "ident": 40,
+      "group": "range",
+      "name": "toplefty",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "botrightx": {
+      "__class__": "LogTocElement",
+      "ident": 41,
+      "group": "range",
+      "name": "botrightx",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "botrighty": {
+      "__class__": "LogTocElement",
+      "ident": 42,
+      "group": "range",
+      "name": "botrighty",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
     }
   },
   "ext_pos": {
     "X": {
       "__class__": "LogTocElement",
-      "ident": 42,
+      "ident": 46,
       "group": "ext_pos",
       "name": "X",
       "ctype": "float",
@@ -434,7 +470,7 @@
     },
     "Y": {
       "__class__": "LogTocElement",
-      "ident": 43,
+      "ident": 47,
       "group": "ext_pos",
       "name": "Y",
       "ctype": "float",
@@ -443,7 +479,7 @@
     },
     "Z": {
       "__class__": "LogTocElement",
-      "ident": 44,
+      "ident": 48,
       "group": "ext_pos",
       "name": "Z",
       "ctype": "float",
@@ -454,7 +490,7 @@
   "locSrv": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 45,
+      "ident": 49,
       "group": "locSrv",
       "name": "x",
       "ctype": "float",
@@ -463,7 +499,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 46,
+      "ident": 50,
       "group": "locSrv",
       "name": "y",
       "ctype": "float",
@@ -472,7 +508,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 47,
+      "ident": 51,
       "group": "locSrv",
       "name": "z",
       "ctype": "float",
@@ -481,7 +517,7 @@
     },
     "qx": {
       "__class__": "LogTocElement",
-      "ident": 48,
+      "ident": 52,
       "group": "locSrv",
       "name": "qx",
       "ctype": "float",
@@ -490,7 +526,7 @@
     },
     "qy": {
       "__class__": "LogTocElement",
-      "ident": 49,
+      "ident": 53,
       "group": "locSrv",
       "name": "qy",
       "ctype": "float",
@@ -499,7 +535,7 @@
     },
     "qz": {
       "__class__": "LogTocElement",
-      "ident": 50,
+      "ident": 54,
       "group": "locSrv",
       "name": "qz",
       "ctype": "float",
@@ -508,7 +544,7 @@
     },
     "qw": {
       "__class__": "LogTocElement",
-      "ident": 51,
+      "ident": 55,
       "group": "locSrv",
       "name": "qw",
       "ctype": "float",
@@ -519,7 +555,7 @@
   "locSrvZ": {
     "tick": {
       "__class__": "LogTocElement",
-      "ident": 52,
+      "ident": 56,
       "group": "locSrvZ",
       "name": "tick",
       "ctype": "uint16_t",
@@ -530,7 +566,7 @@
   "pid_attitude": {
     "roll_outP": {
       "__class__": "LogTocElement",
-      "ident": 53,
+      "ident": 57,
       "group": "pid_attitude",
       "name": "roll_outP",
       "ctype": "float",
@@ -539,7 +575,7 @@
     },
     "roll_outI": {
       "__class__": "LogTocElement",
-      "ident": 54,
+      "ident": 58,
       "group": "pid_attitude",
       "name": "roll_outI",
       "ctype": "float",
@@ -548,7 +584,7 @@
     },
     "roll_outD": {
       "__class__": "LogTocElement",
-      "ident": 55,
+      "ident": 59,
       "group": "pid_attitude",
       "name": "roll_outD",
       "ctype": "float",
@@ -557,7 +593,7 @@
     },
     "pitch_outP": {
       "__class__": "LogTocElement",
-      "ident": 56,
+      "ident": 60,
       "group": "pid_attitude",
       "name": "pitch_outP",
       "ctype": "float",
@@ -566,7 +602,7 @@
     },
     "pitch_outI": {
       "__class__": "LogTocElement",
-      "ident": 57,
+      "ident": 61,
       "group": "pid_attitude",
       "name": "pitch_outI",
       "ctype": "float",
@@ -575,7 +611,7 @@
     },
     "pitch_outD": {
       "__class__": "LogTocElement",
-      "ident": 58,
+      "ident": 62,
       "group": "pid_attitude",
       "name": "pitch_outD",
       "ctype": "float",
@@ -584,7 +620,7 @@
     },
     "yaw_outP": {
       "__class__": "LogTocElement",
-      "ident": 59,
+      "ident": 63,
       "group": "pid_attitude",
       "name": "yaw_outP",
       "ctype": "float",
@@ -593,7 +629,7 @@
     },
     "yaw_outI": {
       "__class__": "LogTocElement",
-      "ident": 60,
+      "ident": 64,
       "group": "pid_attitude",
       "name": "yaw_outI",
       "ctype": "float",
@@ -602,7 +638,7 @@
     },
     "yaw_outD": {
       "__class__": "LogTocElement",
-      "ident": 61,
+      "ident": 65,
       "group": "pid_attitude",
       "name": "yaw_outD",
       "ctype": "float",
@@ -613,7 +649,7 @@
   "pid_rate": {
     "roll_outP": {
       "__class__": "LogTocElement",
-      "ident": 62,
+      "ident": 66,
       "group": "pid_rate",
       "name": "roll_outP",
       "ctype": "float",
@@ -622,7 +658,7 @@
     },
     "roll_outI": {
       "__class__": "LogTocElement",
-      "ident": 63,
+      "ident": 67,
       "group": "pid_rate",
       "name": "roll_outI",
       "ctype": "float",
@@ -631,7 +667,7 @@
     },
     "roll_outD": {
       "__class__": "LogTocElement",
-      "ident": 64,
+      "ident": 68,
       "group": "pid_rate",
       "name": "roll_outD",
       "ctype": "float",
@@ -640,7 +676,7 @@
     },
     "pitch_outP": {
       "__class__": "LogTocElement",
-      "ident": 65,
+      "ident": 69,
       "group": "pid_rate",
       "name": "pitch_outP",
       "ctype": "float",
@@ -649,7 +685,7 @@
     },
     "pitch_outI": {
       "__class__": "LogTocElement",
-      "ident": 66,
+      "ident": 70,
       "group": "pid_rate",
       "name": "pitch_outI",
       "ctype": "float",
@@ -658,7 +694,7 @@
     },
     "pitch_outD": {
       "__class__": "LogTocElement",
-      "ident": 67,
+      "ident": 71,
       "group": "pid_rate",
       "name": "pitch_outD",
       "ctype": "float",
@@ -667,7 +703,7 @@
     },
     "yaw_outP": {
       "__class__": "LogTocElement",
-      "ident": 68,
+      "ident": 72,
       "group": "pid_rate",
       "name": "yaw_outP",
       "ctype": "float",
@@ -676,7 +712,7 @@
     },
     "yaw_outI": {
       "__class__": "LogTocElement",
-      "ident": 69,
+      "ident": 73,
       "group": "pid_rate",
       "name": "yaw_outI",
       "ctype": "float",
@@ -685,7 +721,7 @@
     },
     "yaw_outD": {
       "__class__": "LogTocElement",
-      "ident": 70,
+      "ident": 74,
       "group": "pid_rate",
       "name": "yaw_outD",
       "ctype": "float",
@@ -696,7 +732,7 @@
   "sensfusion6": {
     "qw": {
       "__class__": "LogTocElement",
-      "ident": 71,
+      "ident": 75,
       "group": "sensfusion6",
       "name": "qw",
       "ctype": "float",
@@ -705,7 +741,7 @@
     },
     "qx": {
       "__class__": "LogTocElement",
-      "ident": 72,
+      "ident": 76,
       "group": "sensfusion6",
       "name": "qx",
       "ctype": "float",
@@ -714,7 +750,7 @@
     },
     "qy": {
       "__class__": "LogTocElement",
-      "ident": 73,
+      "ident": 77,
       "group": "sensfusion6",
       "name": "qy",
       "ctype": "float",
@@ -723,7 +759,7 @@
     },
     "qz": {
       "__class__": "LogTocElement",
-      "ident": 74,
+      "ident": 78,
       "group": "sensfusion6",
       "name": "qz",
       "ctype": "float",
@@ -732,7 +768,7 @@
     },
     "gravityX": {
       "__class__": "LogTocElement",
-      "ident": 75,
+      "ident": 79,
       "group": "sensfusion6",
       "name": "gravityX",
       "ctype": "float",
@@ -741,7 +777,7 @@
     },
     "gravityY": {
       "__class__": "LogTocElement",
-      "ident": 76,
+      "ident": 80,
       "group": "sensfusion6",
       "name": "gravityY",
       "ctype": "float",
@@ -750,7 +786,7 @@
     },
     "gravityZ": {
       "__class__": "LogTocElement",
-      "ident": 77,
+      "ident": 81,
       "group": "sensfusion6",
       "name": "gravityZ",
       "ctype": "float",
@@ -759,7 +795,7 @@
     },
     "accZbase": {
       "__class__": "LogTocElement",
-      "ident": 78,
+      "ident": 82,
       "group": "sensfusion6",
       "name": "accZbase",
       "ctype": "float",
@@ -768,7 +804,7 @@
     },
     "isInit": {
       "__class__": "LogTocElement",
-      "ident": 79,
+      "ident": 83,
       "group": "sensfusion6",
       "name": "isInit",
       "ctype": "uint8_t",
@@ -777,7 +813,7 @@
     },
     "isCalibrated": {
       "__class__": "LogTocElement",
-      "ident": 80,
+      "ident": 84,
       "group": "sensfusion6",
       "name": "isCalibrated",
       "ctype": "uint8_t",
@@ -788,7 +824,7 @@
   "acc": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 81,
+      "ident": 85,
       "group": "acc",
       "name": "x",
       "ctype": "float",
@@ -797,7 +833,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 82,
+      "ident": 86,
       "group": "acc",
       "name": "y",
       "ctype": "float",
@@ -806,7 +842,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 83,
+      "ident": 87,
       "group": "acc",
       "name": "z",
       "ctype": "float",
@@ -817,7 +853,7 @@
   "baro": {
     "asl": {
       "__class__": "LogTocElement",
-      "ident": 84,
+      "ident": 88,
       "group": "baro",
       "name": "asl",
       "ctype": "float",
@@ -826,7 +862,7 @@
     },
     "temp": {
       "__class__": "LogTocElement",
-      "ident": 85,
+      "ident": 89,
       "group": "baro",
       "name": "temp",
       "ctype": "float",
@@ -835,7 +871,7 @@
     },
     "pressure": {
       "__class__": "LogTocElement",
-      "ident": 86,
+      "ident": 90,
       "group": "baro",
       "name": "pressure",
       "ctype": "float",
@@ -846,7 +882,7 @@
   "controller": {
     "ctr_yaw": {
       "__class__": "LogTocElement",
-      "ident": 87,
+      "ident": 91,
       "group": "controller",
       "name": "ctr_yaw",
       "ctype": "int16_t",
@@ -855,7 +891,7 @@
     },
     "cmd_thrust": {
       "__class__": "LogTocElement",
-      "ident": 214,
+      "ident": 218,
       "group": "controller",
       "name": "cmd_thrust",
       "ctype": "float",
@@ -864,7 +900,7 @@
     },
     "cmd_roll": {
       "__class__": "LogTocElement",
-      "ident": 215,
+      "ident": 219,
       "group": "controller",
       "name": "cmd_roll",
       "ctype": "float",
@@ -873,7 +909,7 @@
     },
     "cmd_pitch": {
       "__class__": "LogTocElement",
-      "ident": 216,
+      "ident": 220,
       "group": "controller",
       "name": "cmd_pitch",
       "ctype": "float",
@@ -882,7 +918,7 @@
     },
     "cmd_yaw": {
       "__class__": "LogTocElement",
-      "ident": 217,
+      "ident": 221,
       "group": "controller",
       "name": "cmd_yaw",
       "ctype": "float",
@@ -891,7 +927,7 @@
     },
     "r_roll": {
       "__class__": "LogTocElement",
-      "ident": 218,
+      "ident": 222,
       "group": "controller",
       "name": "r_roll",
       "ctype": "float",
@@ -900,7 +936,7 @@
     },
     "r_pitch": {
       "__class__": "LogTocElement",
-      "ident": 219,
+      "ident": 223,
       "group": "controller",
       "name": "r_pitch",
       "ctype": "float",
@@ -909,7 +945,7 @@
     },
     "r_yaw": {
       "__class__": "LogTocElement",
-      "ident": 220,
+      "ident": 224,
       "group": "controller",
       "name": "r_yaw",
       "ctype": "float",
@@ -918,7 +954,7 @@
     },
     "accelz": {
       "__class__": "LogTocElement",
-      "ident": 221,
+      "ident": 225,
       "group": "controller",
       "name": "accelz",
       "ctype": "float",
@@ -927,7 +963,7 @@
     },
     "actuatorThrust": {
       "__class__": "LogTocElement",
-      "ident": 222,
+      "ident": 226,
       "group": "controller",
       "name": "actuatorThrust",
       "ctype": "float",
@@ -936,7 +972,7 @@
     },
     "roll": {
       "__class__": "LogTocElement",
-      "ident": 223,
+      "ident": 227,
       "group": "controller",
       "name": "roll",
       "ctype": "float",
@@ -945,7 +981,7 @@
     },
     "pitch": {
       "__class__": "LogTocElement",
-      "ident": 224,
+      "ident": 228,
       "group": "controller",
       "name": "pitch",
       "ctype": "float",
@@ -954,7 +990,7 @@
     },
     "yaw": {
       "__class__": "LogTocElement",
-      "ident": 225,
+      "ident": 229,
       "group": "controller",
       "name": "yaw",
       "ctype": "float",
@@ -963,7 +999,7 @@
     },
     "rollRate": {
       "__class__": "LogTocElement",
-      "ident": 226,
+      "ident": 230,
       "group": "controller",
       "name": "rollRate",
       "ctype": "float",
@@ -972,7 +1008,7 @@
     },
     "pitchRate": {
       "__class__": "LogTocElement",
-      "ident": 227,
+      "ident": 231,
       "group": "controller",
       "name": "pitchRate",
       "ctype": "float",
@@ -981,7 +1017,7 @@
     },
     "yawRate": {
       "__class__": "LogTocElement",
-      "ident": 228,
+      "ident": 232,
       "group": "controller",
       "name": "yawRate",
       "ctype": "float",
@@ -992,7 +1028,7 @@
   "ctrltarget": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 88,
+      "ident": 92,
       "group": "ctrltarget",
       "name": "x",
       "ctype": "float",
@@ -1001,7 +1037,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 89,
+      "ident": 93,
       "group": "ctrltarget",
       "name": "y",
       "ctype": "float",
@@ -1010,7 +1046,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 90,
+      "ident": 94,
       "group": "ctrltarget",
       "name": "z",
       "ctype": "float",
@@ -1019,7 +1055,7 @@
     },
     "vx": {
       "__class__": "LogTocElement",
-      "ident": 91,
+      "ident": 95,
       "group": "ctrltarget",
       "name": "vx",
       "ctype": "float",
@@ -1028,7 +1064,7 @@
     },
     "vy": {
       "__class__": "LogTocElement",
-      "ident": 92,
+      "ident": 96,
       "group": "ctrltarget",
       "name": "vy",
       "ctype": "float",
@@ -1037,7 +1073,7 @@
     },
     "vz": {
       "__class__": "LogTocElement",
-      "ident": 93,
+      "ident": 97,
       "group": "ctrltarget",
       "name": "vz",
       "ctype": "float",
@@ -1046,7 +1082,7 @@
     },
     "ax": {
       "__class__": "LogTocElement",
-      "ident": 94,
+      "ident": 98,
       "group": "ctrltarget",
       "name": "ax",
       "ctype": "float",
@@ -1055,7 +1091,7 @@
     },
     "ay": {
       "__class__": "LogTocElement",
-      "ident": 95,
+      "ident": 99,
       "group": "ctrltarget",
       "name": "ay",
       "ctype": "float",
@@ -1064,7 +1100,7 @@
     },
     "az": {
       "__class__": "LogTocElement",
-      "ident": 96,
+      "ident": 100,
       "group": "ctrltarget",
       "name": "az",
       "ctype": "float",
@@ -1073,7 +1109,7 @@
     },
     "roll": {
       "__class__": "LogTocElement",
-      "ident": 97,
+      "ident": 101,
       "group": "ctrltarget",
       "name": "roll",
       "ctype": "float",
@@ -1082,7 +1118,7 @@
     },
     "pitch": {
       "__class__": "LogTocElement",
-      "ident": 98,
+      "ident": 102,
       "group": "ctrltarget",
       "name": "pitch",
       "ctype": "float",
@@ -1091,7 +1127,7 @@
     },
     "yaw": {
       "__class__": "LogTocElement",
-      "ident": 99,
+      "ident": 103,
       "group": "ctrltarget",
       "name": "yaw",
       "ctype": "float",
@@ -1102,7 +1138,7 @@
   "ctrltargetZ": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 100,
+      "ident": 104,
       "group": "ctrltargetZ",
       "name": "x",
       "ctype": "int16_t",
@@ -1111,7 +1147,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 101,
+      "ident": 105,
       "group": "ctrltargetZ",
       "name": "y",
       "ctype": "int16_t",
@@ -1120,7 +1156,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 102,
+      "ident": 106,
       "group": "ctrltargetZ",
       "name": "z",
       "ctype": "int16_t",
@@ -1129,7 +1165,7 @@
     },
     "vx": {
       "__class__": "LogTocElement",
-      "ident": 103,
+      "ident": 107,
       "group": "ctrltargetZ",
       "name": "vx",
       "ctype": "int16_t",
@@ -1138,7 +1174,7 @@
     },
     "vy": {
       "__class__": "LogTocElement",
-      "ident": 104,
+      "ident": 108,
       "group": "ctrltargetZ",
       "name": "vy",
       "ctype": "int16_t",
@@ -1147,7 +1183,7 @@
     },
     "vz": {
       "__class__": "LogTocElement",
-      "ident": 105,
+      "ident": 109,
       "group": "ctrltargetZ",
       "name": "vz",
       "ctype": "int16_t",
@@ -1156,7 +1192,7 @@
     },
     "ax": {
       "__class__": "LogTocElement",
-      "ident": 106,
+      "ident": 110,
       "group": "ctrltargetZ",
       "name": "ax",
       "ctype": "int16_t",
@@ -1165,7 +1201,7 @@
     },
     "ay": {
       "__class__": "LogTocElement",
-      "ident": 107,
+      "ident": 111,
       "group": "ctrltargetZ",
       "name": "ay",
       "ctype": "int16_t",
@@ -1174,7 +1210,7 @@
     },
     "az": {
       "__class__": "LogTocElement",
-      "ident": 108,
+      "ident": 112,
       "group": "ctrltargetZ",
       "name": "az",
       "ctype": "int16_t",
@@ -1185,7 +1221,7 @@
   "mag": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 112,
+      "ident": 116,
       "group": "mag",
       "name": "x",
       "ctype": "float",
@@ -1194,7 +1230,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 113,
+      "ident": 117,
       "group": "mag",
       "name": "y",
       "ctype": "float",
@@ -1203,7 +1239,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 114,
+      "ident": 118,
       "group": "mag",
       "name": "z",
       "ctype": "float",
@@ -1214,7 +1250,7 @@
   "stabilizer": {
     "roll": {
       "__class__": "LogTocElement",
-      "ident": 115,
+      "ident": 119,
       "group": "stabilizer",
       "name": "roll",
       "ctype": "float",
@@ -1223,7 +1259,7 @@
     },
     "pitch": {
       "__class__": "LogTocElement",
-      "ident": 116,
+      "ident": 120,
       "group": "stabilizer",
       "name": "pitch",
       "ctype": "float",
@@ -1232,7 +1268,7 @@
     },
     "yaw": {
       "__class__": "LogTocElement",
-      "ident": 117,
+      "ident": 121,
       "group": "stabilizer",
       "name": "yaw",
       "ctype": "float",
@@ -1241,7 +1277,7 @@
     },
     "thrust": {
       "__class__": "LogTocElement",
-      "ident": 118,
+      "ident": 122,
       "group": "stabilizer",
       "name": "thrust",
       "ctype": "float",
@@ -1250,7 +1286,7 @@
     },
     "rtStab": {
       "__class__": "LogTocElement",
-      "ident": 119,
+      "ident": 123,
       "group": "stabilizer",
       "name": "rtStab",
       "ctype": "float",
@@ -1259,7 +1295,7 @@
     },
     "intToOut": {
       "__class__": "LogTocElement",
-      "ident": 120,
+      "ident": 124,
       "group": "stabilizer",
       "name": "intToOut",
       "ctype": "uint32_t",
@@ -1270,7 +1306,7 @@
   "stateEstimate": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 121,
+      "ident": 125,
       "group": "stateEstimate",
       "name": "x",
       "ctype": "float",
@@ -1279,7 +1315,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 122,
+      "ident": 126,
       "group": "stateEstimate",
       "name": "y",
       "ctype": "float",
@@ -1288,7 +1324,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 123,
+      "ident": 127,
       "group": "stateEstimate",
       "name": "z",
       "ctype": "float",
@@ -1297,7 +1333,7 @@
     },
     "vx": {
       "__class__": "LogTocElement",
-      "ident": 124,
+      "ident": 128,
       "group": "stateEstimate",
       "name": "vx",
       "ctype": "float",
@@ -1306,7 +1342,7 @@
     },
     "vy": {
       "__class__": "LogTocElement",
-      "ident": 125,
+      "ident": 129,
       "group": "stateEstimate",
       "name": "vy",
       "ctype": "float",
@@ -1315,7 +1351,7 @@
     },
     "vz": {
       "__class__": "LogTocElement",
-      "ident": 126,
+      "ident": 130,
       "group": "stateEstimate",
       "name": "vz",
       "ctype": "float",
@@ -1324,7 +1360,7 @@
     },
     "ax": {
       "__class__": "LogTocElement",
-      "ident": 127,
+      "ident": 131,
       "group": "stateEstimate",
       "name": "ax",
       "ctype": "float",
@@ -1333,7 +1369,7 @@
     },
     "ay": {
       "__class__": "LogTocElement",
-      "ident": 128,
+      "ident": 132,
       "group": "stateEstimate",
       "name": "ay",
       "ctype": "float",
@@ -1342,7 +1378,7 @@
     },
     "az": {
       "__class__": "LogTocElement",
-      "ident": 129,
+      "ident": 133,
       "group": "stateEstimate",
       "name": "az",
       "ctype": "float",
@@ -1351,7 +1387,7 @@
     },
     "roll": {
       "__class__": "LogTocElement",
-      "ident": 130,
+      "ident": 134,
       "group": "stateEstimate",
       "name": "roll",
       "ctype": "float",
@@ -1360,7 +1396,7 @@
     },
     "pitch": {
       "__class__": "LogTocElement",
-      "ident": 131,
+      "ident": 135,
       "group": "stateEstimate",
       "name": "pitch",
       "ctype": "float",
@@ -1369,7 +1405,7 @@
     },
     "yaw": {
       "__class__": "LogTocElement",
-      "ident": 132,
+      "ident": 136,
       "group": "stateEstimate",
       "name": "yaw",
       "ctype": "float",
@@ -1378,7 +1414,7 @@
     },
     "qx": {
       "__class__": "LogTocElement",
-      "ident": 133,
+      "ident": 137,
       "group": "stateEstimate",
       "name": "qx",
       "ctype": "float",
@@ -1387,7 +1423,7 @@
     },
     "qy": {
       "__class__": "LogTocElement",
-      "ident": 134,
+      "ident": 138,
       "group": "stateEstimate",
       "name": "qy",
       "ctype": "float",
@@ -1396,7 +1432,7 @@
     },
     "qz": {
       "__class__": "LogTocElement",
-      "ident": 135,
+      "ident": 139,
       "group": "stateEstimate",
       "name": "qz",
       "ctype": "float",
@@ -1405,7 +1441,7 @@
     },
     "qw": {
       "__class__": "LogTocElement",
-      "ident": 136,
+      "ident": 140,
       "group": "stateEstimate",
       "name": "qw",
       "ctype": "float",
@@ -1416,7 +1452,7 @@
   "stateEstimateZ": {
     "x": {
       "__class__": "LogTocElement",
-      "ident": 137,
+      "ident": 141,
       "group": "stateEstimateZ",
       "name": "x",
       "ctype": "int16_t",
@@ -1425,7 +1461,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 138,
+      "ident": 142,
       "group": "stateEstimateZ",
       "name": "y",
       "ctype": "int16_t",
@@ -1434,7 +1470,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 139,
+      "ident": 143,
       "group": "stateEstimateZ",
       "name": "z",
       "ctype": "int16_t",
@@ -1443,7 +1479,7 @@
     },
     "vx": {
       "__class__": "LogTocElement",
-      "ident": 140,
+      "ident": 144,
       "group": "stateEstimateZ",
       "name": "vx",
       "ctype": "int16_t",
@@ -1452,7 +1488,7 @@
     },
     "vy": {
       "__class__": "LogTocElement",
-      "ident": 141,
+      "ident": 145,
       "group": "stateEstimateZ",
       "name": "vy",
       "ctype": "int16_t",
@@ -1461,7 +1497,7 @@
     },
     "vz": {
       "__class__": "LogTocElement",
-      "ident": 142,
+      "ident": 146,
       "group": "stateEstimateZ",
       "name": "vz",
       "ctype": "int16_t",
@@ -1470,7 +1506,7 @@
     },
     "ax": {
       "__class__": "LogTocElement",
-      "ident": 143,
+      "ident": 147,
       "group": "stateEstimateZ",
       "name": "ax",
       "ctype": "int16_t",
@@ -1479,7 +1515,7 @@
     },
     "ay": {
       "__class__": "LogTocElement",
-      "ident": 144,
+      "ident": 148,
       "group": "stateEstimateZ",
       "name": "ay",
       "ctype": "int16_t",
@@ -1488,7 +1524,7 @@
     },
     "az": {
       "__class__": "LogTocElement",
-      "ident": 145,
+      "ident": 149,
       "group": "stateEstimateZ",
       "name": "az",
       "ctype": "int16_t",
@@ -1497,7 +1533,7 @@
     },
     "quat": {
       "__class__": "LogTocElement",
-      "ident": 146,
+      "ident": 150,
       "group": "stateEstimateZ",
       "name": "quat",
       "ctype": "uint32_t",
@@ -1506,7 +1542,7 @@
     },
     "rateRoll": {
       "__class__": "LogTocElement",
-      "ident": 147,
+      "ident": 151,
       "group": "stateEstimateZ",
       "name": "rateRoll",
       "ctype": "int16_t",
@@ -1515,7 +1551,7 @@
     },
     "ratePitch": {
       "__class__": "LogTocElement",
-      "ident": 148,
+      "ident": 152,
       "group": "stateEstimateZ",
       "name": "ratePitch",
       "ctype": "int16_t",
@@ -1524,7 +1560,7 @@
     },
     "rateYaw": {
       "__class__": "LogTocElement",
-      "ident": 149,
+      "ident": 153,
       "group": "stateEstimateZ",
       "name": "rateYaw",
       "ctype": "int16_t",
@@ -1535,7 +1571,7 @@
   "posEstAlt": {
     "estimatedZ": {
       "__class__": "LogTocElement",
-      "ident": 150,
+      "ident": 154,
       "group": "posEstAlt",
       "name": "estimatedZ",
       "ctype": "float",
@@ -1544,7 +1580,7 @@
     },
     "estVZ": {
       "__class__": "LogTocElement",
-      "ident": 151,
+      "ident": 155,
       "group": "posEstAlt",
       "name": "estVZ",
       "ctype": "float",
@@ -1553,7 +1589,7 @@
     },
     "velocityZ": {
       "__class__": "LogTocElement",
-      "ident": 152,
+      "ident": 156,
       "group": "posEstAlt",
       "name": "velocityZ",
       "ctype": "float",
@@ -1564,7 +1600,7 @@
   "posCtl": {
     "targetVX": {
       "__class__": "LogTocElement",
-      "ident": 153,
+      "ident": 157,
       "group": "posCtl",
       "name": "targetVX",
       "ctype": "float",
@@ -1573,7 +1609,7 @@
     },
     "targetVY": {
       "__class__": "LogTocElement",
-      "ident": 154,
+      "ident": 158,
       "group": "posCtl",
       "name": "targetVY",
       "ctype": "float",
@@ -1582,7 +1618,7 @@
     },
     "targetVZ": {
       "__class__": "LogTocElement",
-      "ident": 155,
+      "ident": 159,
       "group": "posCtl",
       "name": "targetVZ",
       "ctype": "float",
@@ -1591,7 +1627,7 @@
     },
     "targetX": {
       "__class__": "LogTocElement",
-      "ident": 156,
+      "ident": 160,
       "group": "posCtl",
       "name": "targetX",
       "ctype": "float",
@@ -1600,7 +1636,7 @@
     },
     "targetY": {
       "__class__": "LogTocElement",
-      "ident": 157,
+      "ident": 161,
       "group": "posCtl",
       "name": "targetY",
       "ctype": "float",
@@ -1609,7 +1645,7 @@
     },
     "targetZ": {
       "__class__": "LogTocElement",
-      "ident": 158,
+      "ident": 162,
       "group": "posCtl",
       "name": "targetZ",
       "ctype": "float",
@@ -1618,7 +1654,7 @@
     },
     "Xp": {
       "__class__": "LogTocElement",
-      "ident": 159,
+      "ident": 163,
       "group": "posCtl",
       "name": "Xp",
       "ctype": "float",
@@ -1627,7 +1663,7 @@
     },
     "Xi": {
       "__class__": "LogTocElement",
-      "ident": 160,
+      "ident": 164,
       "group": "posCtl",
       "name": "Xi",
       "ctype": "float",
@@ -1636,7 +1672,7 @@
     },
     "Xd": {
       "__class__": "LogTocElement",
-      "ident": 161,
+      "ident": 165,
       "group": "posCtl",
       "name": "Xd",
       "ctype": "float",
@@ -1645,7 +1681,7 @@
     },
     "Yp": {
       "__class__": "LogTocElement",
-      "ident": 162,
+      "ident": 166,
       "group": "posCtl",
       "name": "Yp",
       "ctype": "float",
@@ -1654,7 +1690,7 @@
     },
     "Yi": {
       "__class__": "LogTocElement",
-      "ident": 163,
+      "ident": 167,
       "group": "posCtl",
       "name": "Yi",
       "ctype": "float",
@@ -1663,7 +1699,7 @@
     },
     "Yd": {
       "__class__": "LogTocElement",
-      "ident": 164,
+      "ident": 168,
       "group": "posCtl",
       "name": "Yd",
       "ctype": "float",
@@ -1672,7 +1708,7 @@
     },
     "Zp": {
       "__class__": "LogTocElement",
-      "ident": 165,
+      "ident": 169,
       "group": "posCtl",
       "name": "Zp",
       "ctype": "float",
@@ -1681,7 +1717,7 @@
     },
     "Zi": {
       "__class__": "LogTocElement",
-      "ident": 166,
+      "ident": 170,
       "group": "posCtl",
       "name": "Zi",
       "ctype": "float",
@@ -1690,7 +1726,7 @@
     },
     "Zd": {
       "__class__": "LogTocElement",
-      "ident": 167,
+      "ident": 171,
       "group": "posCtl",
       "name": "Zd",
       "ctype": "float",
@@ -1699,7 +1735,7 @@
     },
     "VXp": {
       "__class__": "LogTocElement",
-      "ident": 168,
+      "ident": 172,
       "group": "posCtl",
       "name": "VXp",
       "ctype": "float",
@@ -1708,7 +1744,7 @@
     },
     "VXi": {
       "__class__": "LogTocElement",
-      "ident": 169,
+      "ident": 173,
       "group": "posCtl",
       "name": "VXi",
       "ctype": "float",
@@ -1717,7 +1753,7 @@
     },
     "VXd": {
       "__class__": "LogTocElement",
-      "ident": 170,
+      "ident": 174,
       "group": "posCtl",
       "name": "VXd",
       "ctype": "float",
@@ -1726,7 +1762,7 @@
     },
     "VZp": {
       "__class__": "LogTocElement",
-      "ident": 171,
+      "ident": 175,
       "group": "posCtl",
       "name": "VZp",
       "ctype": "float",
@@ -1735,7 +1771,7 @@
     },
     "VZi": {
       "__class__": "LogTocElement",
-      "ident": 172,
+      "ident": 176,
       "group": "posCtl",
       "name": "VZi",
       "ctype": "float",
@@ -1744,7 +1780,7 @@
     },
     "VZd": {
       "__class__": "LogTocElement",
-      "ident": 173,
+      "ident": 177,
       "group": "posCtl",
       "name": "VZd",
       "ctype": "float",
@@ -1755,7 +1791,7 @@
   "posCtrlIndi": {
     "posRef_x": {
       "__class__": "LogTocElement",
-      "ident": 174,
+      "ident": 178,
       "group": "posCtrlIndi",
       "name": "posRef_x",
       "ctype": "float",
@@ -1764,7 +1800,7 @@
     },
     "posRef_y": {
       "__class__": "LogTocElement",
-      "ident": 175,
+      "ident": 179,
       "group": "posCtrlIndi",
       "name": "posRef_y",
       "ctype": "float",
@@ -1773,7 +1809,7 @@
     },
     "posRef_z": {
       "__class__": "LogTocElement",
-      "ident": 176,
+      "ident": 180,
       "group": "posCtrlIndi",
       "name": "posRef_z",
       "ctype": "float",
@@ -1782,7 +1818,7 @@
     },
     "velS_x": {
       "__class__": "LogTocElement",
-      "ident": 177,
+      "ident": 181,
       "group": "posCtrlIndi",
       "name": "velS_x",
       "ctype": "float",
@@ -1791,7 +1827,7 @@
     },
     "velS_y": {
       "__class__": "LogTocElement",
-      "ident": 178,
+      "ident": 182,
       "group": "posCtrlIndi",
       "name": "velS_y",
       "ctype": "float",
@@ -1800,7 +1836,7 @@
     },
     "velS_z": {
       "__class__": "LogTocElement",
-      "ident": 179,
+      "ident": 183,
       "group": "posCtrlIndi",
       "name": "velS_z",
       "ctype": "float",
@@ -1809,7 +1845,7 @@
     },
     "velRef_x": {
       "__class__": "LogTocElement",
-      "ident": 180,
+      "ident": 184,
       "group": "posCtrlIndi",
       "name": "velRef_x",
       "ctype": "float",
@@ -1818,7 +1854,7 @@
     },
     "velRef_y": {
       "__class__": "LogTocElement",
-      "ident": 181,
+      "ident": 185,
       "group": "posCtrlIndi",
       "name": "velRef_y",
       "ctype": "float",
@@ -1827,7 +1863,7 @@
     },
     "velRef_z": {
       "__class__": "LogTocElement",
-      "ident": 182,
+      "ident": 186,
       "group": "posCtrlIndi",
       "name": "velRef_z",
       "ctype": "float",
@@ -1836,7 +1872,7 @@
     },
     "angS_roll": {
       "__class__": "LogTocElement",
-      "ident": 183,
+      "ident": 187,
       "group": "posCtrlIndi",
       "name": "angS_roll",
       "ctype": "float",
@@ -1845,7 +1881,7 @@
     },
     "angS_pitch": {
       "__class__": "LogTocElement",
-      "ident": 184,
+      "ident": 188,
       "group": "posCtrlIndi",
       "name": "angS_pitch",
       "ctype": "float",
@@ -1854,7 +1890,7 @@
     },
     "angS_yaw": {
       "__class__": "LogTocElement",
-      "ident": 185,
+      "ident": 189,
       "group": "posCtrlIndi",
       "name": "angS_yaw",
       "ctype": "float",
@@ -1863,7 +1899,7 @@
     },
     "angF_roll": {
       "__class__": "LogTocElement",
-      "ident": 186,
+      "ident": 190,
       "group": "posCtrlIndi",
       "name": "angF_roll",
       "ctype": "float",
@@ -1872,7 +1908,7 @@
     },
     "angF_pitch": {
       "__class__": "LogTocElement",
-      "ident": 187,
+      "ident": 191,
       "group": "posCtrlIndi",
       "name": "angF_pitch",
       "ctype": "float",
@@ -1881,7 +1917,7 @@
     },
     "angF_yaw": {
       "__class__": "LogTocElement",
-      "ident": 188,
+      "ident": 192,
       "group": "posCtrlIndi",
       "name": "angF_yaw",
       "ctype": "float",
@@ -1890,7 +1926,7 @@
     },
     "accRef_x": {
       "__class__": "LogTocElement",
-      "ident": 189,
+      "ident": 193,
       "group": "posCtrlIndi",
       "name": "accRef_x",
       "ctype": "float",
@@ -1899,7 +1935,7 @@
     },
     "accRef_y": {
       "__class__": "LogTocElement",
-      "ident": 190,
+      "ident": 194,
       "group": "posCtrlIndi",
       "name": "accRef_y",
       "ctype": "float",
@@ -1908,7 +1944,7 @@
     },
     "accRef_z": {
       "__class__": "LogTocElement",
-      "ident": 191,
+      "ident": 195,
       "group": "posCtrlIndi",
       "name": "accRef_z",
       "ctype": "float",
@@ -1917,7 +1953,7 @@
     },
     "accS_x": {
       "__class__": "LogTocElement",
-      "ident": 192,
+      "ident": 196,
       "group": "posCtrlIndi",
       "name": "accS_x",
       "ctype": "float",
@@ -1926,7 +1962,7 @@
     },
     "accS_y": {
       "__class__": "LogTocElement",
-      "ident": 193,
+      "ident": 197,
       "group": "posCtrlIndi",
       "name": "accS_y",
       "ctype": "float",
@@ -1935,7 +1971,7 @@
     },
     "accS_z": {
       "__class__": "LogTocElement",
-      "ident": 194,
+      "ident": 198,
       "group": "posCtrlIndi",
       "name": "accS_z",
       "ctype": "float",
@@ -1944,7 +1980,7 @@
     },
     "accF_x": {
       "__class__": "LogTocElement",
-      "ident": 195,
+      "ident": 199,
       "group": "posCtrlIndi",
       "name": "accF_x",
       "ctype": "float",
@@ -1953,7 +1989,7 @@
     },
     "accF_y": {
       "__class__": "LogTocElement",
-      "ident": 196,
+      "ident": 200,
       "group": "posCtrlIndi",
       "name": "accF_y",
       "ctype": "float",
@@ -1962,7 +1998,7 @@
     },
     "accF_z": {
       "__class__": "LogTocElement",
-      "ident": 197,
+      "ident": 201,
       "group": "posCtrlIndi",
       "name": "accF_z",
       "ctype": "float",
@@ -1971,7 +2007,7 @@
     },
     "accFT_x": {
       "__class__": "LogTocElement",
-      "ident": 198,
+      "ident": 202,
       "group": "posCtrlIndi",
       "name": "accFT_x",
       "ctype": "float",
@@ -1980,7 +2016,7 @@
     },
     "accFT_y": {
       "__class__": "LogTocElement",
-      "ident": 199,
+      "ident": 203,
       "group": "posCtrlIndi",
       "name": "accFT_y",
       "ctype": "float",
@@ -1989,7 +2025,7 @@
     },
     "accFT_z": {
       "__class__": "LogTocElement",
-      "ident": 200,
+      "ident": 204,
       "group": "posCtrlIndi",
       "name": "accFT_z",
       "ctype": "float",
@@ -1998,7 +2034,7 @@
     },
     "accErr_x": {
       "__class__": "LogTocElement",
-      "ident": 201,
+      "ident": 205,
       "group": "posCtrlIndi",
       "name": "accErr_x",
       "ctype": "float",
@@ -2007,7 +2043,7 @@
     },
     "accErr_y": {
       "__class__": "LogTocElement",
-      "ident": 202,
+      "ident": 206,
       "group": "posCtrlIndi",
       "name": "accErr_y",
       "ctype": "float",
@@ -2016,7 +2052,7 @@
     },
     "accErr_z": {
       "__class__": "LogTocElement",
-      "ident": 203,
+      "ident": 207,
       "group": "posCtrlIndi",
       "name": "accErr_z",
       "ctype": "float",
@@ -2025,7 +2061,7 @@
     },
     "phi_tilde": {
       "__class__": "LogTocElement",
-      "ident": 204,
+      "ident": 208,
       "group": "posCtrlIndi",
       "name": "phi_tilde",
       "ctype": "float",
@@ -2034,7 +2070,7 @@
     },
     "theta_tilde": {
       "__class__": "LogTocElement",
-      "ident": 205,
+      "ident": 209,
       "group": "posCtrlIndi",
       "name": "theta_tilde",
       "ctype": "float",
@@ -2043,7 +2079,7 @@
     },
     "T_tilde": {
       "__class__": "LogTocElement",
-      "ident": 206,
+      "ident": 210,
       "group": "posCtrlIndi",
       "name": "T_tilde",
       "ctype": "float",
@@ -2052,7 +2088,7 @@
     },
     "T_inner": {
       "__class__": "LogTocElement",
-      "ident": 207,
+      "ident": 211,
       "group": "posCtrlIndi",
       "name": "T_inner",
       "ctype": "float",
@@ -2061,7 +2097,7 @@
     },
     "T_inner_f": {
       "__class__": "LogTocElement",
-      "ident": 208,
+      "ident": 212,
       "group": "posCtrlIndi",
       "name": "T_inner_f",
       "ctype": "float",
@@ -2070,7 +2106,7 @@
     },
     "T_incremented": {
       "__class__": "LogTocElement",
-      "ident": 209,
+      "ident": 213,
       "group": "posCtrlIndi",
       "name": "T_incremented",
       "ctype": "float",
@@ -2079,7 +2115,7 @@
     },
     "cmd_phi": {
       "__class__": "LogTocElement",
-      "ident": 210,
+      "ident": 214,
       "group": "posCtrlIndi",
       "name": "cmd_phi",
       "ctype": "float",
@@ -2088,7 +2124,7 @@
     },
     "cmd_theta": {
       "__class__": "LogTocElement",
-      "ident": 211,
+      "ident": 215,
       "group": "posCtrlIndi",
       "name": "cmd_theta",
       "ctype": "float",
@@ -2099,7 +2135,7 @@
   "estimator": {
     "rtApnd": {
       "__class__": "LogTocElement",
-      "ident": 212,
+      "ident": 216,
       "group": "estimator",
       "name": "rtApnd",
       "ctype": "float",
@@ -2108,7 +2144,7 @@
     },
     "rtRej": {
       "__class__": "LogTocElement",
-      "ident": 213,
+      "ident": 217,
       "group": "estimator",
       "name": "rtRej",
       "ctype": "float",
@@ -2119,7 +2155,7 @@
   "ctrlMel": {
     "cmd_thrust": {
       "__class__": "LogTocElement",
-      "ident": 229,
+      "ident": 233,
       "group": "ctrlMel",
       "name": "cmd_thrust",
       "ctype": "float",
@@ -2128,7 +2164,7 @@
     },
     "cmd_roll": {
       "__class__": "LogTocElement",
-      "ident": 230,
+      "ident": 234,
       "group": "ctrlMel",
       "name": "cmd_roll",
       "ctype": "float",
@@ -2137,7 +2173,7 @@
     },
     "cmd_pitch": {
       "__class__": "LogTocElement",
-      "ident": 231,
+      "ident": 235,
       "group": "ctrlMel",
       "name": "cmd_pitch",
       "ctype": "float",
@@ -2146,7 +2182,7 @@
     },
     "cmd_yaw": {
       "__class__": "LogTocElement",
-      "ident": 232,
+      "ident": 236,
       "group": "ctrlMel",
       "name": "cmd_yaw",
       "ctype": "float",
@@ -2155,7 +2191,7 @@
     },
     "r_roll": {
       "__class__": "LogTocElement",
-      "ident": 233,
+      "ident": 237,
       "group": "ctrlMel",
       "name": "r_roll",
       "ctype": "float",
@@ -2164,7 +2200,7 @@
     },
     "r_pitch": {
       "__class__": "LogTocElement",
-      "ident": 234,
+      "ident": 238,
       "group": "ctrlMel",
       "name": "r_pitch",
       "ctype": "float",
@@ -2173,7 +2209,7 @@
     },
     "r_yaw": {
       "__class__": "LogTocElement",
-      "ident": 235,
+      "ident": 239,
       "group": "ctrlMel",
       "name": "r_yaw",
       "ctype": "float",
@@ -2182,7 +2218,7 @@
     },
     "accelz": {
       "__class__": "LogTocElement",
-      "ident": 236,
+      "ident": 240,
       "group": "ctrlMel",
       "name": "accelz",
       "ctype": "float",
@@ -2191,7 +2227,7 @@
     },
     "zdx": {
       "__class__": "LogTocElement",
-      "ident": 237,
+      "ident": 241,
       "group": "ctrlMel",
       "name": "zdx",
       "ctype": "float",
@@ -2200,7 +2236,7 @@
     },
     "zdy": {
       "__class__": "LogTocElement",
-      "ident": 238,
+      "ident": 242,
       "group": "ctrlMel",
       "name": "zdy",
       "ctype": "float",
@@ -2209,7 +2245,7 @@
     },
     "zdz": {
       "__class__": "LogTocElement",
-      "ident": 239,
+      "ident": 243,
       "group": "ctrlMel",
       "name": "zdz",
       "ctype": "float",
@@ -2218,7 +2254,7 @@
     },
     "i_err_x": {
       "__class__": "LogTocElement",
-      "ident": 240,
+      "ident": 244,
       "group": "ctrlMel",
       "name": "i_err_x",
       "ctype": "float",
@@ -2227,7 +2263,7 @@
     },
     "i_err_y": {
       "__class__": "LogTocElement",
-      "ident": 241,
+      "ident": 245,
       "group": "ctrlMel",
       "name": "i_err_y",
       "ctype": "float",
@@ -2236,7 +2272,7 @@
     },
     "i_err_z": {
       "__class__": "LogTocElement",
-      "ident": 242,
+      "ident": 246,
       "group": "ctrlMel",
       "name": "i_err_z",
       "ctype": "float",
@@ -2247,7 +2283,7 @@
   "ctrlINDI": {
     "cmd_thrust": {
       "__class__": "LogTocElement",
-      "ident": 243,
+      "ident": 247,
       "group": "ctrlINDI",
       "name": "cmd_thrust",
       "ctype": "float",
@@ -2256,7 +2292,7 @@
     },
     "cmd_roll": {
       "__class__": "LogTocElement",
-      "ident": 244,
+      "ident": 248,
       "group": "ctrlINDI",
       "name": "cmd_roll",
       "ctype": "float",
@@ -2265,7 +2301,7 @@
     },
     "cmd_pitch": {
       "__class__": "LogTocElement",
-      "ident": 245,
+      "ident": 249,
       "group": "ctrlINDI",
       "name": "cmd_pitch",
       "ctype": "float",
@@ -2274,7 +2310,7 @@
     },
     "cmd_yaw": {
       "__class__": "LogTocElement",
-      "ident": 246,
+      "ident": 250,
       "group": "ctrlINDI",
       "name": "cmd_yaw",
       "ctype": "float",
@@ -2283,7 +2319,7 @@
     },
     "r_roll": {
       "__class__": "LogTocElement",
-      "ident": 247,
+      "ident": 251,
       "group": "ctrlINDI",
       "name": "r_roll",
       "ctype": "float",
@@ -2292,7 +2328,7 @@
     },
     "r_pitch": {
       "__class__": "LogTocElement",
-      "ident": 248,
+      "ident": 252,
       "group": "ctrlINDI",
       "name": "r_pitch",
       "ctype": "float",
@@ -2301,7 +2337,7 @@
     },
     "r_yaw": {
       "__class__": "LogTocElement",
-      "ident": 249,
+      "ident": 253,
       "group": "ctrlINDI",
       "name": "r_yaw",
       "ctype": "float",
@@ -2310,7 +2346,7 @@
     },
     "u_act_dyn_p": {
       "__class__": "LogTocElement",
-      "ident": 250,
+      "ident": 254,
       "group": "ctrlINDI",
       "name": "u_act_dyn_p",
       "ctype": "float",
@@ -2319,7 +2355,7 @@
     },
     "u_act_dyn_q": {
       "__class__": "LogTocElement",
-      "ident": 251,
+      "ident": 255,
       "group": "ctrlINDI",
       "name": "u_act_dyn_q",
       "ctype": "float",
@@ -2328,7 +2364,7 @@
     },
     "u_act_dyn_r": {
       "__class__": "LogTocElement",
-      "ident": 252,
+      "ident": 256,
       "group": "ctrlINDI",
       "name": "u_act_dyn_r",
       "ctype": "float",
@@ -2337,7 +2373,7 @@
     },
     "du_p": {
       "__class__": "LogTocElement",
-      "ident": 253,
+      "ident": 257,
       "group": "ctrlINDI",
       "name": "du_p",
       "ctype": "float",
@@ -2346,7 +2382,7 @@
     },
     "du_q": {
       "__class__": "LogTocElement",
-      "ident": 254,
+      "ident": 258,
       "group": "ctrlINDI",
       "name": "du_q",
       "ctype": "float",
@@ -2355,7 +2391,7 @@
     },
     "du_r": {
       "__class__": "LogTocElement",
-      "ident": 255,
+      "ident": 259,
       "group": "ctrlINDI",
       "name": "du_r",
       "ctype": "float",
@@ -2364,7 +2400,7 @@
     },
     "ang_accel_ref_p": {
       "__class__": "LogTocElement",
-      "ident": 256,
+      "ident": 260,
       "group": "ctrlINDI",
       "name": "ang_accel_ref_p",
       "ctype": "float",
@@ -2373,7 +2409,7 @@
     },
     "ang_accel_ref_q": {
       "__class__": "LogTocElement",
-      "ident": 257,
+      "ident": 261,
       "group": "ctrlINDI",
       "name": "ang_accel_ref_q",
       "ctype": "float",
@@ -2382,7 +2418,7 @@
     },
     "ang_accel_ref_r": {
       "__class__": "LogTocElement",
-      "ident": 258,
+      "ident": 262,
       "group": "ctrlINDI",
       "name": "ang_accel_ref_r",
       "ctype": "float",
@@ -2391,7 +2427,7 @@
     },
     "rate_d[0]": {
       "__class__": "LogTocElement",
-      "ident": 259,
+      "ident": 263,
       "group": "ctrlINDI",
       "name": "rate_d[0]",
       "ctype": "float",
@@ -2400,7 +2436,7 @@
     },
     "rate_d[1]": {
       "__class__": "LogTocElement",
-      "ident": 260,
+      "ident": 264,
       "group": "ctrlINDI",
       "name": "rate_d[1]",
       "ctype": "float",
@@ -2409,7 +2445,7 @@
     },
     "rate_d[2]": {
       "__class__": "LogTocElement",
-      "ident": 261,
+      "ident": 265,
       "group": "ctrlINDI",
       "name": "rate_d[2]",
       "ctype": "float",
@@ -2418,7 +2454,7 @@
     },
     "uf_p": {
       "__class__": "LogTocElement",
-      "ident": 262,
+      "ident": 266,
       "group": "ctrlINDI",
       "name": "uf_p",
       "ctype": "float",
@@ -2427,7 +2463,7 @@
     },
     "uf_q": {
       "__class__": "LogTocElement",
-      "ident": 263,
+      "ident": 267,
       "group": "ctrlINDI",
       "name": "uf_q",
       "ctype": "float",
@@ -2436,7 +2472,7 @@
     },
     "uf_r": {
       "__class__": "LogTocElement",
-      "ident": 264,
+      "ident": 268,
       "group": "ctrlINDI",
       "name": "uf_r",
       "ctype": "float",
@@ -2445,7 +2481,7 @@
     },
     "Omega_f_p": {
       "__class__": "LogTocElement",
-      "ident": 265,
+      "ident": 269,
       "group": "ctrlINDI",
       "name": "Omega_f_p",
       "ctype": "float",
@@ -2454,7 +2490,7 @@
     },
     "Omega_f_q": {
       "__class__": "LogTocElement",
-      "ident": 266,
+      "ident": 270,
       "group": "ctrlINDI",
       "name": "Omega_f_q",
       "ctype": "float",
@@ -2463,7 +2499,7 @@
     },
     "Omega_f_r": {
       "__class__": "LogTocElement",
-      "ident": 267,
+      "ident": 271,
       "group": "ctrlINDI",
       "name": "Omega_f_r",
       "ctype": "float",
@@ -2472,7 +2508,7 @@
     },
     "n_p": {
       "__class__": "LogTocElement",
-      "ident": 268,
+      "ident": 272,
       "group": "ctrlINDI",
       "name": "n_p",
       "ctype": "float",
@@ -2481,7 +2517,7 @@
     },
     "n_q": {
       "__class__": "LogTocElement",
-      "ident": 269,
+      "ident": 273,
       "group": "ctrlINDI",
       "name": "n_q",
       "ctype": "float",
@@ -2490,7 +2526,7 @@
     },
     "n_r": {
       "__class__": "LogTocElement",
-      "ident": 270,
+      "ident": 274,
       "group": "ctrlINDI",
       "name": "n_r",
       "ctype": "float",
@@ -2501,7 +2537,7 @@
   "motor": {
     "m1": {
       "__class__": "LogTocElement",
-      "ident": 271,
+      "ident": 275,
       "group": "motor",
       "name": "m1",
       "ctype": "uint32_t",
@@ -2510,7 +2546,7 @@
     },
     "m2": {
       "__class__": "LogTocElement",
-      "ident": 272,
+      "ident": 276,
       "group": "motor",
       "name": "m2",
       "ctype": "uint32_t",
@@ -2519,7 +2555,7 @@
     },
     "m3": {
       "__class__": "LogTocElement",
-      "ident": 273,
+      "ident": 277,
       "group": "motor",
       "name": "m3",
       "ctype": "uint32_t",
@@ -2528,7 +2564,7 @@
     },
     "m4": {
       "__class__": "LogTocElement",
-      "ident": 274,
+      "ident": 278,
       "group": "motor",
       "name": "m4",
       "ctype": "uint32_t",
@@ -2539,7 +2575,7 @@
   "colAv": {
     "latency": {
       "__class__": "LogTocElement",
-      "ident": 275,
+      "ident": 279,
       "group": "colAv",
       "name": "latency",
       "ctype": "uint32_t",
@@ -2550,7 +2586,7 @@
   "health": {
     "motorVarXM1": {
       "__class__": "LogTocElement",
-      "ident": 276,
+      "ident": 280,
       "group": "health",
       "name": "motorVarXM1",
       "ctype": "float",
@@ -2559,7 +2595,7 @@
     },
     "motorVarYM1": {
       "__class__": "LogTocElement",
-      "ident": 277,
+      "ident": 281,
       "group": "health",
       "name": "motorVarYM1",
       "ctype": "float",
@@ -2568,7 +2604,7 @@
     },
     "motorVarXM2": {
       "__class__": "LogTocElement",
-      "ident": 278,
+      "ident": 282,
       "group": "health",
       "name": "motorVarXM2",
       "ctype": "float",
@@ -2577,7 +2613,7 @@
     },
     "motorVarYM2": {
       "__class__": "LogTocElement",
-      "ident": 279,
+      "ident": 283,
       "group": "health",
       "name": "motorVarYM2",
       "ctype": "float",
@@ -2586,7 +2622,7 @@
     },
     "motorVarXM3": {
       "__class__": "LogTocElement",
-      "ident": 280,
+      "ident": 284,
       "group": "health",
       "name": "motorVarXM3",
       "ctype": "float",
@@ -2595,7 +2631,7 @@
     },
     "motorVarYM3": {
       "__class__": "LogTocElement",
-      "ident": 281,
+      "ident": 285,
       "group": "health",
       "name": "motorVarYM3",
       "ctype": "float",
@@ -2604,7 +2640,7 @@
     },
     "motorVarXM4": {
       "__class__": "LogTocElement",
-      "ident": 282,
+      "ident": 286,
       "group": "health",
       "name": "motorVarXM4",
       "ctype": "float",
@@ -2613,7 +2649,7 @@
     },
     "motorVarYM4": {
       "__class__": "LogTocElement",
-      "ident": 283,
+      "ident": 287,
       "group": "health",
       "name": "motorVarYM4",
       "ctype": "float",
@@ -2622,7 +2658,7 @@
     },
     "motorPass": {
       "__class__": "LogTocElement",
-      "ident": 284,
+      "ident": 288,
       "group": "health",
       "name": "motorPass",
       "ctype": "uint8_t",
@@ -2631,7 +2667,7 @@
     },
     "batterySag": {
       "__class__": "LogTocElement",
-      "ident": 285,
+      "ident": 289,
       "group": "health",
       "name": "batterySag",
       "ctype": "float",
@@ -2640,7 +2676,7 @@
     },
     "batteryPass": {
       "__class__": "LogTocElement",
-      "ident": 286,
+      "ident": 290,
       "group": "health",
       "name": "batteryPass",
       "ctype": "uint8_t",
@@ -2649,7 +2685,7 @@
     },
     "motorTestCount": {
       "__class__": "LogTocElement",
-      "ident": 287,
+      "ident": 291,
       "group": "health",
       "name": "motorTestCount",
       "ctype": "uint16_t",
@@ -2660,7 +2696,7 @@
   "kalman": {
     "inFlight": {
       "__class__": "LogTocElement",
-      "ident": 288,
+      "ident": 292,
       "group": "kalman",
       "name": "inFlight",
       "ctype": "uint8_t",
@@ -2669,7 +2705,7 @@
     },
     "stateX": {
       "__class__": "LogTocElement",
-      "ident": 289,
+      "ident": 293,
       "group": "kalman",
       "name": "stateX",
       "ctype": "float",
@@ -2678,7 +2714,7 @@
     },
     "stateY": {
       "__class__": "LogTocElement",
-      "ident": 290,
+      "ident": 294,
       "group": "kalman",
       "name": "stateY",
       "ctype": "float",
@@ -2687,7 +2723,7 @@
     },
     "stateZ": {
       "__class__": "LogTocElement",
-      "ident": 291,
+      "ident": 295,
       "group": "kalman",
       "name": "stateZ",
       "ctype": "float",
@@ -2696,7 +2732,7 @@
     },
     "statePX": {
       "__class__": "LogTocElement",
-      "ident": 292,
+      "ident": 296,
       "group": "kalman",
       "name": "statePX",
       "ctype": "float",
@@ -2705,7 +2741,7 @@
     },
     "statePY": {
       "__class__": "LogTocElement",
-      "ident": 293,
+      "ident": 297,
       "group": "kalman",
       "name": "statePY",
       "ctype": "float",
@@ -2714,7 +2750,7 @@
     },
     "statePZ": {
       "__class__": "LogTocElement",
-      "ident": 294,
+      "ident": 298,
       "group": "kalman",
       "name": "statePZ",
       "ctype": "float",
@@ -2723,7 +2759,7 @@
     },
     "stateD0": {
       "__class__": "LogTocElement",
-      "ident": 295,
+      "ident": 299,
       "group": "kalman",
       "name": "stateD0",
       "ctype": "float",
@@ -2732,7 +2768,7 @@
     },
     "stateD1": {
       "__class__": "LogTocElement",
-      "ident": 296,
+      "ident": 300,
       "group": "kalman",
       "name": "stateD1",
       "ctype": "float",
@@ -2741,7 +2777,7 @@
     },
     "stateD2": {
       "__class__": "LogTocElement",
-      "ident": 297,
+      "ident": 301,
       "group": "kalman",
       "name": "stateD2",
       "ctype": "float",
@@ -2750,7 +2786,7 @@
     },
     "varX": {
       "__class__": "LogTocElement",
-      "ident": 298,
+      "ident": 302,
       "group": "kalman",
       "name": "varX",
       "ctype": "float",
@@ -2759,7 +2795,7 @@
     },
     "varY": {
       "__class__": "LogTocElement",
-      "ident": 299,
+      "ident": 303,
       "group": "kalman",
       "name": "varY",
       "ctype": "float",
@@ -2768,7 +2804,7 @@
     },
     "varZ": {
       "__class__": "LogTocElement",
-      "ident": 300,
+      "ident": 304,
       "group": "kalman",
       "name": "varZ",
       "ctype": "float",
@@ -2777,7 +2813,7 @@
     },
     "varPX": {
       "__class__": "LogTocElement",
-      "ident": 301,
+      "ident": 305,
       "group": "kalman",
       "name": "varPX",
       "ctype": "float",
@@ -2786,7 +2822,7 @@
     },
     "varPY": {
       "__class__": "LogTocElement",
-      "ident": 302,
+      "ident": 306,
       "group": "kalman",
       "name": "varPY",
       "ctype": "float",
@@ -2795,7 +2831,7 @@
     },
     "varPZ": {
       "__class__": "LogTocElement",
-      "ident": 303,
+      "ident": 307,
       "group": "kalman",
       "name": "varPZ",
       "ctype": "float",
@@ -2804,7 +2840,7 @@
     },
     "varD0": {
       "__class__": "LogTocElement",
-      "ident": 304,
+      "ident": 308,
       "group": "kalman",
       "name": "varD0",
       "ctype": "float",
@@ -2813,7 +2849,7 @@
     },
     "varD1": {
       "__class__": "LogTocElement",
-      "ident": 305,
+      "ident": 309,
       "group": "kalman",
       "name": "varD1",
       "ctype": "float",
@@ -2822,7 +2858,7 @@
     },
     "varD2": {
       "__class__": "LogTocElement",
-      "ident": 306,
+      "ident": 310,
       "group": "kalman",
       "name": "varD2",
       "ctype": "float",
@@ -2831,7 +2867,7 @@
     },
     "q0": {
       "__class__": "LogTocElement",
-      "ident": 307,
+      "ident": 311,
       "group": "kalman",
       "name": "q0",
       "ctype": "float",
@@ -2840,7 +2876,7 @@
     },
     "q1": {
       "__class__": "LogTocElement",
-      "ident": 308,
+      "ident": 312,
       "group": "kalman",
       "name": "q1",
       "ctype": "float",
@@ -2849,7 +2885,7 @@
     },
     "q2": {
       "__class__": "LogTocElement",
-      "ident": 309,
+      "ident": 313,
       "group": "kalman",
       "name": "q2",
       "ctype": "float",
@@ -2858,7 +2894,7 @@
     },
     "q3": {
       "__class__": "LogTocElement",
-      "ident": 310,
+      "ident": 314,
       "group": "kalman",
       "name": "q3",
       "ctype": "float",
@@ -2867,7 +2903,7 @@
     },
     "rtUpdate": {
       "__class__": "LogTocElement",
-      "ident": 311,
+      "ident": 315,
       "group": "kalman",
       "name": "rtUpdate",
       "ctype": "float",
@@ -2876,7 +2912,7 @@
     },
     "rtPred": {
       "__class__": "LogTocElement",
-      "ident": 312,
+      "ident": 316,
       "group": "kalman",
       "name": "rtPred",
       "ctype": "float",
@@ -2885,7 +2921,7 @@
     },
     "rtFinal": {
       "__class__": "LogTocElement",
-      "ident": 313,
+      "ident": 317,
       "group": "kalman",
       "name": "rtFinal",
       "ctype": "float",
@@ -2896,7 +2932,7 @@
   "outlierf": {
     "lhWin": {
       "__class__": "LogTocElement",
-      "ident": 314,
+      "ident": 318,
       "group": "outlierf",
       "name": "lhWin",
       "ctype": "int32_t",
@@ -2905,7 +2941,7 @@
     },
     "bucket0": {
       "__class__": "LogTocElement",
-      "ident": 395,
+      "ident": 399,
       "group": "outlierf",
       "name": "bucket0",
       "ctype": "int32_t",
@@ -2914,7 +2950,7 @@
     },
     "bucket1": {
       "__class__": "LogTocElement",
-      "ident": 396,
+      "ident": 400,
       "group": "outlierf",
       "name": "bucket1",
       "ctype": "int32_t",
@@ -2923,7 +2959,7 @@
     },
     "bucket2": {
       "__class__": "LogTocElement",
-      "ident": 397,
+      "ident": 401,
       "group": "outlierf",
       "name": "bucket2",
       "ctype": "int32_t",
@@ -2932,7 +2968,7 @@
     },
     "bucket3": {
       "__class__": "LogTocElement",
-      "ident": 398,
+      "ident": 402,
       "group": "outlierf",
       "name": "bucket3",
       "ctype": "int32_t",
@@ -2941,7 +2977,7 @@
     },
     "bucket4": {
       "__class__": "LogTocElement",
-      "ident": 399,
+      "ident": 403,
       "group": "outlierf",
       "name": "bucket4",
       "ctype": "int32_t",
@@ -2950,7 +2986,7 @@
     },
     "accLev": {
       "__class__": "LogTocElement",
-      "ident": 400,
+      "ident": 404,
       "group": "outlierf",
       "name": "accLev",
       "ctype": "float",
@@ -2959,7 +2995,7 @@
     },
     "errD": {
       "__class__": "LogTocElement",
-      "ident": 401,
+      "ident": 405,
       "group": "outlierf",
       "name": "errD",
       "ctype": "float",
@@ -2970,7 +3006,7 @@
   "kalman_pred": {
     "predNX": {
       "__class__": "LogTocElement",
-      "ident": 315,
+      "ident": 319,
       "group": "kalman_pred",
       "name": "predNX",
       "ctype": "float",
@@ -2979,7 +3015,7 @@
     },
     "predNY": {
       "__class__": "LogTocElement",
-      "ident": 316,
+      "ident": 320,
       "group": "kalman_pred",
       "name": "predNY",
       "ctype": "float",
@@ -2988,7 +3024,7 @@
     },
     "measNX": {
       "__class__": "LogTocElement",
-      "ident": 317,
+      "ident": 321,
       "group": "kalman_pred",
       "name": "measNX",
       "ctype": "float",
@@ -2997,7 +3033,7 @@
     },
     "measNY": {
       "__class__": "LogTocElement",
-      "ident": 318,
+      "ident": 322,
       "group": "kalman_pred",
       "name": "measNY",
       "ctype": "float",
@@ -3008,7 +3044,7 @@
   "ring": {
     "fadeTime": {
       "__class__": "LogTocElement",
-      "ident": 319,
+      "ident": 323,
       "group": "ring",
       "name": "fadeTime",
       "ctype": "float",
@@ -3019,7 +3055,7 @@
   "gps": {
     "lat": {
       "__class__": "LogTocElement",
-      "ident": 320,
+      "ident": 324,
       "group": "gps",
       "name": "lat",
       "ctype": "int32_t",
@@ -3028,7 +3064,7 @@
     },
     "lon": {
       "__class__": "LogTocElement",
-      "ident": 321,
+      "ident": 325,
       "group": "gps",
       "name": "lon",
       "ctype": "int32_t",
@@ -3037,7 +3073,7 @@
     },
     "hMSL": {
       "__class__": "LogTocElement",
-      "ident": 322,
+      "ident": 326,
       "group": "gps",
       "name": "hMSL",
       "ctype": "float",
@@ -3046,7 +3082,7 @@
     },
     "hAcc": {
       "__class__": "LogTocElement",
-      "ident": 323,
+      "ident": 327,
       "group": "gps",
       "name": "hAcc",
       "ctype": "float",
@@ -3055,7 +3091,7 @@
     },
     "nsat": {
       "__class__": "LogTocElement",
-      "ident": 324,
+      "ident": 328,
       "group": "gps",
       "name": "nsat",
       "ctype": "int32_t",
@@ -3064,7 +3100,7 @@
     },
     "fix": {
       "__class__": "LogTocElement",
-      "ident": 325,
+      "ident": 329,
       "group": "gps",
       "name": "fix",
       "ctype": "int32_t",
@@ -3075,7 +3111,7 @@
   "usd": {
     "spiWrBps": {
       "__class__": "LogTocElement",
-      "ident": 326,
+      "ident": 330,
       "group": "usd",
       "name": "spiWrBps",
       "ctype": "float",
@@ -3084,7 +3120,7 @@
     },
     "spiReBps": {
       "__class__": "LogTocElement",
-      "ident": 327,
+      "ident": 331,
       "group": "usd",
       "name": "spiReBps",
       "ctype": "float",
@@ -3093,7 +3129,7 @@
     },
     "fatWrBps": {
       "__class__": "LogTocElement",
-      "ident": 328,
+      "ident": 332,
       "group": "usd",
       "name": "fatWrBps",
       "ctype": "float",
@@ -3104,7 +3140,7 @@
   "loco": {
     "mode": {
       "__class__": "LogTocElement",
-      "ident": 329,
+      "ident": 333,
       "group": "loco",
       "name": "mode",
       "ctype": "uint8_t",
@@ -3113,7 +3149,7 @@
     },
     "spiWr": {
       "__class__": "LogTocElement",
-      "ident": 330,
+      "ident": 334,
       "group": "loco",
       "name": "spiWr",
       "ctype": "float",
@@ -3122,7 +3158,7 @@
     },
     "spiRe": {
       "__class__": "LogTocElement",
-      "ident": 331,
+      "ident": 335,
       "group": "loco",
       "name": "spiRe",
       "ctype": "float",
@@ -3133,7 +3169,7 @@
   "ranging": {
     "state": {
       "__class__": "LogTocElement",
-      "ident": 332,
+      "ident": 336,
       "group": "ranging",
       "name": "state",
       "ctype": "uint16_t",
@@ -3142,7 +3178,7 @@
     },
     "distance0": {
       "__class__": "LogTocElement",
-      "ident": 333,
+      "ident": 337,
       "group": "ranging",
       "name": "distance0",
       "ctype": "float",
@@ -3151,7 +3187,7 @@
     },
     "distance1": {
       "__class__": "LogTocElement",
-      "ident": 334,
+      "ident": 338,
       "group": "ranging",
       "name": "distance1",
       "ctype": "float",
@@ -3160,7 +3196,7 @@
     },
     "distance2": {
       "__class__": "LogTocElement",
-      "ident": 335,
+      "ident": 339,
       "group": "ranging",
       "name": "distance2",
       "ctype": "float",
@@ -3169,7 +3205,7 @@
     },
     "distance3": {
       "__class__": "LogTocElement",
-      "ident": 336,
+      "ident": 340,
       "group": "ranging",
       "name": "distance3",
       "ctype": "float",
@@ -3178,7 +3214,7 @@
     },
     "distance4": {
       "__class__": "LogTocElement",
-      "ident": 337,
+      "ident": 341,
       "group": "ranging",
       "name": "distance4",
       "ctype": "float",
@@ -3187,7 +3223,7 @@
     },
     "distance5": {
       "__class__": "LogTocElement",
-      "ident": 338,
+      "ident": 342,
       "group": "ranging",
       "name": "distance5",
       "ctype": "float",
@@ -3196,7 +3232,7 @@
     },
     "distance6": {
       "__class__": "LogTocElement",
-      "ident": 339,
+      "ident": 343,
       "group": "ranging",
       "name": "distance6",
       "ctype": "float",
@@ -3205,7 +3241,7 @@
     },
     "distance7": {
       "__class__": "LogTocElement",
-      "ident": 340,
+      "ident": 344,
       "group": "ranging",
       "name": "distance7",
       "ctype": "float",
@@ -3214,7 +3250,7 @@
     },
     "pressure0": {
       "__class__": "LogTocElement",
-      "ident": 341,
+      "ident": 345,
       "group": "ranging",
       "name": "pressure0",
       "ctype": "float",
@@ -3223,7 +3259,7 @@
     },
     "pressure1": {
       "__class__": "LogTocElement",
-      "ident": 342,
+      "ident": 346,
       "group": "ranging",
       "name": "pressure1",
       "ctype": "float",
@@ -3232,7 +3268,7 @@
     },
     "pressure2": {
       "__class__": "LogTocElement",
-      "ident": 343,
+      "ident": 347,
       "group": "ranging",
       "name": "pressure2",
       "ctype": "float",
@@ -3241,7 +3277,7 @@
     },
     "pressure3": {
       "__class__": "LogTocElement",
-      "ident": 344,
+      "ident": 348,
       "group": "ranging",
       "name": "pressure3",
       "ctype": "float",
@@ -3250,7 +3286,7 @@
     },
     "pressure4": {
       "__class__": "LogTocElement",
-      "ident": 345,
+      "ident": 349,
       "group": "ranging",
       "name": "pressure4",
       "ctype": "float",
@@ -3259,7 +3295,7 @@
     },
     "pressure5": {
       "__class__": "LogTocElement",
-      "ident": 346,
+      "ident": 350,
       "group": "ranging",
       "name": "pressure5",
       "ctype": "float",
@@ -3268,7 +3304,7 @@
     },
     "pressure6": {
       "__class__": "LogTocElement",
-      "ident": 347,
+      "ident": 351,
       "group": "ranging",
       "name": "pressure6",
       "ctype": "float",
@@ -3277,7 +3313,7 @@
     },
     "pressure7": {
       "__class__": "LogTocElement",
-      "ident": 348,
+      "ident": 352,
       "group": "ranging",
       "name": "pressure7",
       "ctype": "float",
@@ -3288,7 +3324,7 @@
   "twr": {
     "rangingSuccessRate0": {
       "__class__": "LogTocElement",
-      "ident": 349,
+      "ident": 353,
       "group": "twr",
       "name": "rangingSuccessRate0",
       "ctype": "uint8_t",
@@ -3297,7 +3333,7 @@
     },
     "rangingPerSec0": {
       "__class__": "LogTocElement",
-      "ident": 350,
+      "ident": 354,
       "group": "twr",
       "name": "rangingPerSec0",
       "ctype": "uint8_t",
@@ -3306,7 +3342,7 @@
     },
     "rangingSuccessRate1": {
       "__class__": "LogTocElement",
-      "ident": 351,
+      "ident": 355,
       "group": "twr",
       "name": "rangingSuccessRate1",
       "ctype": "uint8_t",
@@ -3315,7 +3351,7 @@
     },
     "rangingPerSec1": {
       "__class__": "LogTocElement",
-      "ident": 352,
+      "ident": 356,
       "group": "twr",
       "name": "rangingPerSec1",
       "ctype": "uint8_t",
@@ -3324,7 +3360,7 @@
     },
     "rangingSuccessRate2": {
       "__class__": "LogTocElement",
-      "ident": 353,
+      "ident": 357,
       "group": "twr",
       "name": "rangingSuccessRate2",
       "ctype": "uint8_t",
@@ -3333,7 +3369,7 @@
     },
     "rangingPerSec2": {
       "__class__": "LogTocElement",
-      "ident": 354,
+      "ident": 358,
       "group": "twr",
       "name": "rangingPerSec2",
       "ctype": "uint8_t",
@@ -3342,7 +3378,7 @@
     },
     "rangingSuccessRate3": {
       "__class__": "LogTocElement",
-      "ident": 355,
+      "ident": 359,
       "group": "twr",
       "name": "rangingSuccessRate3",
       "ctype": "uint8_t",
@@ -3351,7 +3387,7 @@
     },
     "rangingPerSec3": {
       "__class__": "LogTocElement",
-      "ident": 356,
+      "ident": 360,
       "group": "twr",
       "name": "rangingPerSec3",
       "ctype": "uint8_t",
@@ -3360,7 +3396,7 @@
     },
     "rangingSuccessRate4": {
       "__class__": "LogTocElement",
-      "ident": 357,
+      "ident": 361,
       "group": "twr",
       "name": "rangingSuccessRate4",
       "ctype": "uint8_t",
@@ -3369,7 +3405,7 @@
     },
     "rangingPerSec4": {
       "__class__": "LogTocElement",
-      "ident": 358,
+      "ident": 362,
       "group": "twr",
       "name": "rangingPerSec4",
       "ctype": "uint8_t",
@@ -3378,7 +3414,7 @@
     },
     "rangingSuccessRate5": {
       "__class__": "LogTocElement",
-      "ident": 359,
+      "ident": 363,
       "group": "twr",
       "name": "rangingSuccessRate5",
       "ctype": "uint8_t",
@@ -3387,7 +3423,7 @@
     },
     "rangingPerSec5": {
       "__class__": "LogTocElement",
-      "ident": 360,
+      "ident": 364,
       "group": "twr",
       "name": "rangingPerSec5",
       "ctype": "uint8_t",
@@ -3398,7 +3434,7 @@
   "tdoa2": {
     "d7-0": {
       "__class__": "LogTocElement",
-      "ident": 361,
+      "ident": 365,
       "group": "tdoa2",
       "name": "d7-0",
       "ctype": "float",
@@ -3407,7 +3443,7 @@
     },
     "d0-1": {
       "__class__": "LogTocElement",
-      "ident": 362,
+      "ident": 366,
       "group": "tdoa2",
       "name": "d0-1",
       "ctype": "float",
@@ -3416,7 +3452,7 @@
     },
     "d1-2": {
       "__class__": "LogTocElement",
-      "ident": 363,
+      "ident": 367,
       "group": "tdoa2",
       "name": "d1-2",
       "ctype": "float",
@@ -3425,7 +3461,7 @@
     },
     "d2-3": {
       "__class__": "LogTocElement",
-      "ident": 364,
+      "ident": 368,
       "group": "tdoa2",
       "name": "d2-3",
       "ctype": "float",
@@ -3434,7 +3470,7 @@
     },
     "d3-4": {
       "__class__": "LogTocElement",
-      "ident": 365,
+      "ident": 369,
       "group": "tdoa2",
       "name": "d3-4",
       "ctype": "float",
@@ -3443,7 +3479,7 @@
     },
     "d4-5": {
       "__class__": "LogTocElement",
-      "ident": 366,
+      "ident": 370,
       "group": "tdoa2",
       "name": "d4-5",
       "ctype": "float",
@@ -3452,7 +3488,7 @@
     },
     "d5-6": {
       "__class__": "LogTocElement",
-      "ident": 367,
+      "ident": 371,
       "group": "tdoa2",
       "name": "d5-6",
       "ctype": "float",
@@ -3461,7 +3497,7 @@
     },
     "d6-7": {
       "__class__": "LogTocElement",
-      "ident": 368,
+      "ident": 372,
       "group": "tdoa2",
       "name": "d6-7",
       "ctype": "float",
@@ -3470,7 +3506,7 @@
     },
     "cc0": {
       "__class__": "LogTocElement",
-      "ident": 369,
+      "ident": 373,
       "group": "tdoa2",
       "name": "cc0",
       "ctype": "float",
@@ -3479,7 +3515,7 @@
     },
     "cc1": {
       "__class__": "LogTocElement",
-      "ident": 370,
+      "ident": 374,
       "group": "tdoa2",
       "name": "cc1",
       "ctype": "float",
@@ -3488,7 +3524,7 @@
     },
     "cc2": {
       "__class__": "LogTocElement",
-      "ident": 371,
+      "ident": 375,
       "group": "tdoa2",
       "name": "cc2",
       "ctype": "float",
@@ -3497,7 +3533,7 @@
     },
     "cc3": {
       "__class__": "LogTocElement",
-      "ident": 372,
+      "ident": 376,
       "group": "tdoa2",
       "name": "cc3",
       "ctype": "float",
@@ -3506,7 +3542,7 @@
     },
     "cc4": {
       "__class__": "LogTocElement",
-      "ident": 373,
+      "ident": 377,
       "group": "tdoa2",
       "name": "cc4",
       "ctype": "float",
@@ -3515,7 +3551,7 @@
     },
     "cc5": {
       "__class__": "LogTocElement",
-      "ident": 374,
+      "ident": 378,
       "group": "tdoa2",
       "name": "cc5",
       "ctype": "float",
@@ -3524,7 +3560,7 @@
     },
     "cc6": {
       "__class__": "LogTocElement",
-      "ident": 375,
+      "ident": 379,
       "group": "tdoa2",
       "name": "cc6",
       "ctype": "float",
@@ -3533,7 +3569,7 @@
     },
     "cc7": {
       "__class__": "LogTocElement",
-      "ident": 376,
+      "ident": 380,
       "group": "tdoa2",
       "name": "cc7",
       "ctype": "float",
@@ -3542,7 +3578,7 @@
     },
     "dist7-0": {
       "__class__": "LogTocElement",
-      "ident": 377,
+      "ident": 381,
       "group": "tdoa2",
       "name": "dist7-0",
       "ctype": "uint16_t",
@@ -3551,7 +3587,7 @@
     },
     "dist0-1": {
       "__class__": "LogTocElement",
-      "ident": 378,
+      "ident": 382,
       "group": "tdoa2",
       "name": "dist0-1",
       "ctype": "uint16_t",
@@ -3560,7 +3596,7 @@
     },
     "dist1-2": {
       "__class__": "LogTocElement",
-      "ident": 379,
+      "ident": 383,
       "group": "tdoa2",
       "name": "dist1-2",
       "ctype": "uint16_t",
@@ -3569,7 +3605,7 @@
     },
     "dist2-3": {
       "__class__": "LogTocElement",
-      "ident": 380,
+      "ident": 384,
       "group": "tdoa2",
       "name": "dist2-3",
       "ctype": "uint16_t",
@@ -3578,7 +3614,7 @@
     },
     "dist3-4": {
       "__class__": "LogTocElement",
-      "ident": 381,
+      "ident": 385,
       "group": "tdoa2",
       "name": "dist3-4",
       "ctype": "uint16_t",
@@ -3587,7 +3623,7 @@
     },
     "dist4-5": {
       "__class__": "LogTocElement",
-      "ident": 382,
+      "ident": 386,
       "group": "tdoa2",
       "name": "dist4-5",
       "ctype": "uint16_t",
@@ -3596,7 +3632,7 @@
     },
     "dist5-6": {
       "__class__": "LogTocElement",
-      "ident": 383,
+      "ident": 387,
       "group": "tdoa2",
       "name": "dist5-6",
       "ctype": "uint16_t",
@@ -3605,7 +3641,7 @@
     },
     "dist6-7": {
       "__class__": "LogTocElement",
-      "ident": 384,
+      "ident": 388,
       "group": "tdoa2",
       "name": "dist6-7",
       "ctype": "uint16_t",
@@ -3616,7 +3652,7 @@
   "tdoaEngine": {
     "stRx": {
       "__class__": "LogTocElement",
-      "ident": 385,
+      "ident": 389,
       "group": "tdoaEngine",
       "name": "stRx",
       "ctype": "float",
@@ -3625,7 +3661,7 @@
     },
     "stEst": {
       "__class__": "LogTocElement",
-      "ident": 386,
+      "ident": 390,
       "group": "tdoaEngine",
       "name": "stEst",
       "ctype": "float",
@@ -3634,7 +3670,7 @@
     },
     "stTime": {
       "__class__": "LogTocElement",
-      "ident": 387,
+      "ident": 391,
       "group": "tdoaEngine",
       "name": "stTime",
       "ctype": "float",
@@ -3643,7 +3679,7 @@
     },
     "stFound": {
       "__class__": "LogTocElement",
-      "ident": 388,
+      "ident": 392,
       "group": "tdoaEngine",
       "name": "stFound",
       "ctype": "float",
@@ -3652,7 +3688,7 @@
     },
     "stCc": {
       "__class__": "LogTocElement",
-      "ident": 389,
+      "ident": 393,
       "group": "tdoaEngine",
       "name": "stCc",
       "ctype": "float",
@@ -3661,7 +3697,7 @@
     },
     "stHit": {
       "__class__": "LogTocElement",
-      "ident": 390,
+      "ident": 394,
       "group": "tdoaEngine",
       "name": "stHit",
       "ctype": "float",
@@ -3670,7 +3706,7 @@
     },
     "stMiss": {
       "__class__": "LogTocElement",
-      "ident": 391,
+      "ident": 395,
       "group": "tdoaEngine",
       "name": "stMiss",
       "ctype": "float",
@@ -3679,7 +3715,7 @@
     },
     "cc": {
       "__class__": "LogTocElement",
-      "ident": 392,
+      "ident": 396,
       "group": "tdoaEngine",
       "name": "cc",
       "ctype": "float",
@@ -3688,7 +3724,7 @@
     },
     "tof": {
       "__class__": "LogTocElement",
-      "ident": 393,
+      "ident": 397,
       "group": "tdoaEngine",
       "name": "tof",
       "ctype": "uint16_t",
@@ -3697,7 +3733,7 @@
     },
     "tdoa": {
       "__class__": "LogTocElement",
-      "ident": 394,
+      "ident": 398,
       "group": "tdoaEngine",
       "name": "tdoa",
       "ctype": "float",
@@ -3708,7 +3744,7 @@
   "motion": {
     "motion": {
       "__class__": "LogTocElement",
-      "ident": 402,
+      "ident": 406,
       "group": "motion",
       "name": "motion",
       "ctype": "uint8_t",
@@ -3717,7 +3753,7 @@
     },
     "deltaX": {
       "__class__": "LogTocElement",
-      "ident": 403,
+      "ident": 407,
       "group": "motion",
       "name": "deltaX",
       "ctype": "int16_t",
@@ -3726,7 +3762,7 @@
     },
     "deltaY": {
       "__class__": "LogTocElement",
-      "ident": 404,
+      "ident": 408,
       "group": "motion",
       "name": "deltaY",
       "ctype": "int16_t",
@@ -3735,7 +3771,7 @@
     },
     "shutter": {
       "__class__": "LogTocElement",
-      "ident": 405,
+      "ident": 409,
       "group": "motion",
       "name": "shutter",
       "ctype": "uint16_t",
@@ -3744,7 +3780,7 @@
     },
     "maxRaw": {
       "__class__": "LogTocElement",
-      "ident": 406,
+      "ident": 410,
       "group": "motion",
       "name": "maxRaw",
       "ctype": "uint8_t",
@@ -3753,7 +3789,7 @@
     },
     "minRaw": {
       "__class__": "LogTocElement",
-      "ident": 407,
+      "ident": 411,
       "group": "motion",
       "name": "minRaw",
       "ctype": "uint8_t",
@@ -3762,7 +3798,7 @@
     },
     "Rawsum": {
       "__class__": "LogTocElement",
-      "ident": 408,
+      "ident": 412,
       "group": "motion",
       "name": "Rawsum",
       "ctype": "uint8_t",
@@ -3771,7 +3807,7 @@
     },
     "outlierCount": {
       "__class__": "LogTocElement",
-      "ident": 409,
+      "ident": 413,
       "group": "motion",
       "name": "outlierCount",
       "ctype": "uint8_t",
@@ -3780,7 +3816,7 @@
     },
     "squal": {
       "__class__": "LogTocElement",
-      "ident": 410,
+      "ident": 414,
       "group": "motion",
       "name": "squal",
       "ctype": "uint8_t",
@@ -3789,7 +3825,7 @@
     },
     "std": {
       "__class__": "LogTocElement",
-      "ident": 411,
+      "ident": 415,
       "group": "motion",
       "name": "std",
       "ctype": "float",
@@ -3800,7 +3836,7 @@
   "oa": {
     "front": {
       "__class__": "LogTocElement",
-      "ident": 412,
+      "ident": 416,
       "group": "oa",
       "name": "front",
       "ctype": "uint16_t",
@@ -3809,7 +3845,7 @@
     },
     "back": {
       "__class__": "LogTocElement",
-      "ident": 413,
+      "ident": 417,
       "group": "oa",
       "name": "back",
       "ctype": "uint16_t",
@@ -3818,7 +3854,7 @@
     },
     "up": {
       "__class__": "LogTocElement",
-      "ident": 414,
+      "ident": 418,
       "group": "oa",
       "name": "up",
       "ctype": "uint16_t",
@@ -3827,7 +3863,7 @@
     },
     "left": {
       "__class__": "LogTocElement",
-      "ident": 415,
+      "ident": 419,
       "group": "oa",
       "name": "left",
       "ctype": "uint16_t",
@@ -3836,7 +3872,7 @@
     },
     "right": {
       "__class__": "LogTocElement",
-      "ident": 416,
+      "ident": 420,
       "group": "oa",
       "name": "right",
       "ctype": "uint16_t",
@@ -3847,7 +3883,7 @@
   "activeMarker": {
     "btSns": {
       "__class__": "LogTocElement",
-      "ident": 417,
+      "ident": 421,
       "group": "activeMarker",
       "name": "btSns",
       "ctype": "uint8_t",
@@ -3856,7 +3892,7 @@
     },
     "i2cOk": {
       "__class__": "LogTocElement",
-      "ident": 418,
+      "ident": 422,
       "group": "activeMarker",
       "name": "i2cOk",
       "ctype": "uint8_t",
@@ -3867,7 +3903,7 @@
   "aideck": {
     "receivebyte": {
       "__class__": "LogTocElement",
-      "ident": 419,
+      "ident": 423,
       "group": "aideck",
       "name": "receivebyte",
       "ctype": "uint8_t",
@@ -3878,7 +3914,7 @@
   "lighthouse": {
     "validAngles": {
       "__class__": "LogTocElement",
-      "ident": 420,
+      "ident": 424,
       "group": "lighthouse",
       "name": "validAngles",
       "ctype": "uint8_t",
@@ -3887,7 +3923,7 @@
     },
     "rawAngle0x": {
       "__class__": "LogTocElement",
-      "ident": 421,
+      "ident": 425,
       "group": "lighthouse",
       "name": "rawAngle0x",
       "ctype": "float",
@@ -3896,7 +3932,7 @@
     },
     "rawAngle0y": {
       "__class__": "LogTocElement",
-      "ident": 422,
+      "ident": 426,
       "group": "lighthouse",
       "name": "rawAngle0y",
       "ctype": "float",
@@ -3905,7 +3941,7 @@
     },
     "rawAngle1x": {
       "__class__": "LogTocElement",
-      "ident": 423,
+      "ident": 427,
       "group": "lighthouse",
       "name": "rawAngle1x",
       "ctype": "float",
@@ -3914,7 +3950,7 @@
     },
     "rawAngle1y": {
       "__class__": "LogTocElement",
-      "ident": 424,
+      "ident": 428,
       "group": "lighthouse",
       "name": "rawAngle1y",
       "ctype": "float",
@@ -3923,7 +3959,7 @@
     },
     "angle0x": {
       "__class__": "LogTocElement",
-      "ident": 425,
+      "ident": 429,
       "group": "lighthouse",
       "name": "angle0x",
       "ctype": "float",
@@ -3932,7 +3968,7 @@
     },
     "angle0y": {
       "__class__": "LogTocElement",
-      "ident": 426,
+      "ident": 430,
       "group": "lighthouse",
       "name": "angle0y",
       "ctype": "float",
@@ -3941,7 +3977,7 @@
     },
     "angle1x": {
       "__class__": "LogTocElement",
-      "ident": 427,
+      "ident": 431,
       "group": "lighthouse",
       "name": "angle1x",
       "ctype": "float",
@@ -3950,7 +3986,7 @@
     },
     "angle1y": {
       "__class__": "LogTocElement",
-      "ident": 428,
+      "ident": 432,
       "group": "lighthouse",
       "name": "angle1y",
       "ctype": "float",
@@ -3959,7 +3995,7 @@
     },
     "angle0x_1": {
       "__class__": "LogTocElement",
-      "ident": 429,
+      "ident": 433,
       "group": "lighthouse",
       "name": "angle0x_1",
       "ctype": "float",
@@ -3968,7 +4004,7 @@
     },
     "angle0y_1": {
       "__class__": "LogTocElement",
-      "ident": 430,
+      "ident": 434,
       "group": "lighthouse",
       "name": "angle0y_1",
       "ctype": "float",
@@ -3977,7 +4013,7 @@
     },
     "angle1x_1": {
       "__class__": "LogTocElement",
-      "ident": 431,
+      "ident": 435,
       "group": "lighthouse",
       "name": "angle1x_1",
       "ctype": "float",
@@ -3986,7 +4022,7 @@
     },
     "angle1y_1": {
       "__class__": "LogTocElement",
-      "ident": 432,
+      "ident": 436,
       "group": "lighthouse",
       "name": "angle1y_1",
       "ctype": "float",
@@ -3995,7 +4031,7 @@
     },
     "angle0x_2": {
       "__class__": "LogTocElement",
-      "ident": 433,
+      "ident": 437,
       "group": "lighthouse",
       "name": "angle0x_2",
       "ctype": "float",
@@ -4004,7 +4040,7 @@
     },
     "angle0y_2": {
       "__class__": "LogTocElement",
-      "ident": 434,
+      "ident": 438,
       "group": "lighthouse",
       "name": "angle0y_2",
       "ctype": "float",
@@ -4013,7 +4049,7 @@
     },
     "angle1x_2": {
       "__class__": "LogTocElement",
-      "ident": 435,
+      "ident": 439,
       "group": "lighthouse",
       "name": "angle1x_2",
       "ctype": "float",
@@ -4022,7 +4058,7 @@
     },
     "angle1y_2": {
       "__class__": "LogTocElement",
-      "ident": 436,
+      "ident": 440,
       "group": "lighthouse",
       "name": "angle1y_2",
       "ctype": "float",
@@ -4031,7 +4067,7 @@
     },
     "angle0x_3": {
       "__class__": "LogTocElement",
-      "ident": 437,
+      "ident": 441,
       "group": "lighthouse",
       "name": "angle0x_3",
       "ctype": "float",
@@ -4040,7 +4076,7 @@
     },
     "angle0y_3": {
       "__class__": "LogTocElement",
-      "ident": 438,
+      "ident": 442,
       "group": "lighthouse",
       "name": "angle0y_3",
       "ctype": "float",
@@ -4049,7 +4085,7 @@
     },
     "angle1x_3": {
       "__class__": "LogTocElement",
-      "ident": 439,
+      "ident": 443,
       "group": "lighthouse",
       "name": "angle1x_3",
       "ctype": "float",
@@ -4058,7 +4094,7 @@
     },
     "angle1y_3": {
       "__class__": "LogTocElement",
-      "ident": 440,
+      "ident": 444,
       "group": "lighthouse",
       "name": "angle1y_3",
       "ctype": "float",
@@ -4067,7 +4103,7 @@
     },
     "rawAngle0xlh2": {
       "__class__": "LogTocElement",
-      "ident": 441,
+      "ident": 445,
       "group": "lighthouse",
       "name": "rawAngle0xlh2",
       "ctype": "float",
@@ -4076,7 +4112,7 @@
     },
     "rawAngle0ylh2": {
       "__class__": "LogTocElement",
-      "ident": 442,
+      "ident": 446,
       "group": "lighthouse",
       "name": "rawAngle0ylh2",
       "ctype": "float",
@@ -4085,7 +4121,7 @@
     },
     "rawAngle1xlh2": {
       "__class__": "LogTocElement",
-      "ident": 443,
+      "ident": 447,
       "group": "lighthouse",
       "name": "rawAngle1xlh2",
       "ctype": "float",
@@ -4094,7 +4130,7 @@
     },
     "rawAngle1ylh2": {
       "__class__": "LogTocElement",
-      "ident": 444,
+      "ident": 448,
       "group": "lighthouse",
       "name": "rawAngle1ylh2",
       "ctype": "float",
@@ -4103,7 +4139,7 @@
     },
     "angle0x_0lh2": {
       "__class__": "LogTocElement",
-      "ident": 445,
+      "ident": 449,
       "group": "lighthouse",
       "name": "angle0x_0lh2",
       "ctype": "float",
@@ -4112,7 +4148,7 @@
     },
     "angle0y_0lh2": {
       "__class__": "LogTocElement",
-      "ident": 446,
+      "ident": 450,
       "group": "lighthouse",
       "name": "angle0y_0lh2",
       "ctype": "float",
@@ -4121,7 +4157,7 @@
     },
     "angle1x_0lh2": {
       "__class__": "LogTocElement",
-      "ident": 447,
+      "ident": 451,
       "group": "lighthouse",
       "name": "angle1x_0lh2",
       "ctype": "float",
@@ -4130,7 +4166,7 @@
     },
     "angle1y_0lh2": {
       "__class__": "LogTocElement",
-      "ident": 448,
+      "ident": 452,
       "group": "lighthouse",
       "name": "angle1y_0lh2",
       "ctype": "float",
@@ -4139,7 +4175,7 @@
     },
     "serRt": {
       "__class__": "LogTocElement",
-      "ident": 449,
+      "ident": 453,
       "group": "lighthouse",
       "name": "serRt",
       "ctype": "float",
@@ -4148,7 +4184,7 @@
     },
     "frmRt": {
       "__class__": "LogTocElement",
-      "ident": 450,
+      "ident": 454,
       "group": "lighthouse",
       "name": "frmRt",
       "ctype": "float",
@@ -4157,7 +4193,7 @@
     },
     "cycleRt": {
       "__class__": "LogTocElement",
-      "ident": 451,
+      "ident": 455,
       "group": "lighthouse",
       "name": "cycleRt",
       "ctype": "float",
@@ -4166,7 +4202,7 @@
     },
     "bs0Rt": {
       "__class__": "LogTocElement",
-      "ident": 452,
+      "ident": 456,
       "group": "lighthouse",
       "name": "bs0Rt",
       "ctype": "float",
@@ -4175,7 +4211,7 @@
     },
     "bs1Rt": {
       "__class__": "LogTocElement",
-      "ident": 453,
+      "ident": 457,
       "group": "lighthouse",
       "name": "bs1Rt",
       "ctype": "float",
@@ -4184,7 +4220,7 @@
     },
     "width0": {
       "__class__": "LogTocElement",
-      "ident": 454,
+      "ident": 458,
       "group": "lighthouse",
       "name": "width0",
       "ctype": "uint16_t",
@@ -4193,7 +4229,7 @@
     },
     "width1": {
       "__class__": "LogTocElement",
-      "ident": 455,
+      "ident": 459,
       "group": "lighthouse",
       "name": "width1",
       "ctype": "uint16_t",
@@ -4202,7 +4238,7 @@
     },
     "width2": {
       "__class__": "LogTocElement",
-      "ident": 456,
+      "ident": 460,
       "group": "lighthouse",
       "name": "width2",
       "ctype": "uint16_t",
@@ -4211,7 +4247,7 @@
     },
     "width3": {
       "__class__": "LogTocElement",
-      "ident": 457,
+      "ident": 461,
       "group": "lighthouse",
       "name": "width3",
       "ctype": "uint16_t",
@@ -4220,7 +4256,7 @@
     },
     "comSync": {
       "__class__": "LogTocElement",
-      "ident": 458,
+      "ident": 462,
       "group": "lighthouse",
       "name": "comSync",
       "ctype": "uint8_t",
@@ -4229,7 +4265,7 @@
     },
     "bsReceive": {
       "__class__": "LogTocElement",
-      "ident": 459,
+      "ident": 463,
       "group": "lighthouse",
       "name": "bsReceive",
       "ctype": "uint16_t",
@@ -4238,7 +4274,7 @@
     },
     "bsActive": {
       "__class__": "LogTocElement",
-      "ident": 460,
+      "ident": 464,
       "group": "lighthouse",
       "name": "bsActive",
       "ctype": "uint16_t",
@@ -4247,7 +4283,7 @@
     },
     "bsCalUd": {
       "__class__": "LogTocElement",
-      "ident": 461,
+      "ident": 465,
       "group": "lighthouse",
       "name": "bsCalUd",
       "ctype": "uint16_t",
@@ -4256,7 +4292,7 @@
     },
     "bsCalCon": {
       "__class__": "LogTocElement",
-      "ident": 462,
+      "ident": 466,
       "group": "lighthouse",
       "name": "bsCalCon",
       "ctype": "uint16_t",
@@ -4265,7 +4301,7 @@
     },
     "status": {
       "__class__": "LogTocElement",
-      "ident": 463,
+      "ident": 467,
       "group": "lighthouse",
       "name": "status",
       "ctype": "uint8_t",
@@ -4274,7 +4310,7 @@
     },
     "posRt": {
       "__class__": "LogTocElement",
-      "ident": 464,
+      "ident": 468,
       "group": "lighthouse",
       "name": "posRt",
       "ctype": "float",
@@ -4283,7 +4319,7 @@
     },
     "estBs0Rt": {
       "__class__": "LogTocElement",
-      "ident": 465,
+      "ident": 469,
       "group": "lighthouse",
       "name": "estBs0Rt",
       "ctype": "float",
@@ -4292,7 +4328,7 @@
     },
     "estBs1Rt": {
       "__class__": "LogTocElement",
-      "ident": 466,
+      "ident": 470,
       "group": "lighthouse",
       "name": "estBs1Rt",
       "ctype": "float",
@@ -4301,7 +4337,7 @@
     },
     "x": {
       "__class__": "LogTocElement",
-      "ident": 467,
+      "ident": 471,
       "group": "lighthouse",
       "name": "x",
       "ctype": "float",
@@ -4310,7 +4346,7 @@
     },
     "y": {
       "__class__": "LogTocElement",
-      "ident": 468,
+      "ident": 472,
       "group": "lighthouse",
       "name": "y",
       "ctype": "float",
@@ -4319,7 +4355,7 @@
     },
     "z": {
       "__class__": "LogTocElement",
-      "ident": 469,
+      "ident": 473,
       "group": "lighthouse",
       "name": "z",
       "ctype": "float",
@@ -4328,7 +4364,7 @@
     },
     "delta": {
       "__class__": "LogTocElement",
-      "ident": 470,
+      "ident": 474,
       "group": "lighthouse",
       "name": "delta",
       "ctype": "float",
@@ -4337,7 +4373,7 @@
     },
     "bsGeoVal": {
       "__class__": "LogTocElement",
-      "ident": 471,
+      "ident": 475,
       "group": "lighthouse",
       "name": "bsGeoVal",
       "ctype": "uint16_t",
@@ -4346,7 +4382,7 @@
     },
     "bsCalVal": {
       "__class__": "LogTocElement",
-      "ident": 472,
+      "ident": 476,
       "group": "lighthouse",
       "name": "bsCalVal",
       "ctype": "uint16_t",

@@ -57,10 +57,21 @@
       "access": 1
     }
   },
+  "led": {
+    "bitmask": {
+      "__class__": "ParamTocElement",
+      "ident": 6,
+      "group": "led",
+      "name": "bitmask",
+      "ctype": "uint8_t",
+      "pytype": "<B",
+      "access": 0
+    }
+  },
   "cpu": {
     "flash": {
       "__class__": "ParamTocElement",
-      "ident": 6,
+      "ident": 7,
       "group": "cpu",
       "name": "flash",
       "ctype": "uint16_t",
@@ -69,7 +80,7 @@
     },
     "id0": {
       "__class__": "ParamTocElement",
-      "ident": 7,
+      "ident": 8,
       "group": "cpu",
       "name": "id0",
       "ctype": "uint32_t",
@@ -78,7 +89,7 @@
     },
     "id1": {
       "__class__": "ParamTocElement",
-      "ident": 8,
+      "ident": 9,
       "group": "cpu",
       "name": "id1",
       "ctype": "uint32_t",
@@ -87,7 +98,7 @@
     },
     "id2": {
       "__class__": "ParamTocElement",
-      "ident": 9,
+      "ident": 10,
       "group": "cpu",
       "name": "id2",
       "ctype": "uint32_t",
@@ -98,7 +109,7 @@
   "system": {
     "selftestPassed": {
       "__class__": "ParamTocElement",
-      "ident": 10,
+      "ident": 11,
       "group": "system",
       "name": "selftestPassed",
       "ctype": "int8_t",
@@ -107,7 +118,7 @@
     },
     "forceArm": {
       "__class__": "ParamTocElement",
-      "ident": 11,
+      "ident": 12,
       "group": "system",
       "name": "forceArm",
       "ctype": "int8_t",
@@ -116,7 +127,7 @@
     },
     "taskDump": {
       "__class__": "ParamTocElement",
-      "ident": 16,
+      "ident": 17,
       "group": "system",
       "name": "taskDump",
       "ctype": "uint8_t",
@@ -125,7 +136,7 @@
     },
     "highlight": {
       "__class__": "ParamTocElement",
-      "ident": 187,
+      "ident": 189,
       "group": "system",
       "name": "highlight",
       "ctype": "uint8_t",
@@ -136,7 +147,7 @@
   "crtpsrv": {
     "echoDelay": {
       "__class__": "ParamTocElement",
-      "ident": 12,
+      "ident": 13,
       "group": "crtpsrv",
       "name": "echoDelay",
       "ctype": "uint16_t",
@@ -147,7 +158,7 @@
   "sound": {
     "effect": {
       "__class__": "ParamTocElement",
-      "ident": 13,
+      "ident": 14,
       "group": "sound",
       "name": "effect",
       "ctype": "uint8_t",
@@ -156,7 +167,7 @@
     },
     "neffect": {
       "__class__": "ParamTocElement",
-      "ident": 14,
+      "ident": 15,
       "group": "sound",
       "name": "neffect",
       "ctype": "uint32_t",
@@ -165,7 +176,7 @@
     },
     "freq": {
       "__class__": "ParamTocElement",
-      "ident": 15,
+      "ident": 16,
       "group": "sound",
       "name": "freq",
       "ctype": "uint16_t",
@@ -176,7 +187,7 @@
   "memTst": {
     "resetW": {
       "__class__": "ParamTocElement",
-      "ident": 17,
+      "ident": 18,
       "group": "memTst",
       "name": "resetW",
       "ctype": "uint8_t",
@@ -187,7 +198,7 @@
   "commander": {
     "enHighLevel": {
       "__class__": "ParamTocElement",
-      "ident": 18,
+      "ident": 19,
       "group": "commander",
       "name": "enHighLevel",
       "ctype": "uint8_t",
@@ -198,7 +209,7 @@
   "flightmode": {
     "althold": {
       "__class__": "ParamTocElement",
-      "ident": 19,
+      "ident": 20,
       "group": "flightmode",
       "name": "althold",
       "ctype": "uint8_t",
@@ -207,7 +218,7 @@
     },
     "poshold": {
       "__class__": "ParamTocElement",
-      "ident": 20,
+      "ident": 21,
       "group": "flightmode",
       "name": "poshold",
       "ctype": "uint8_t",
@@ -216,7 +227,7 @@
     },
     "posSet": {
       "__class__": "ParamTocElement",
-      "ident": 21,
+      "ident": 22,
       "group": "flightmode",
       "name": "posSet",
       "ctype": "uint8_t",
@@ -225,7 +236,7 @@
     },
     "yawMode": {
       "__class__": "ParamTocElement",
-      "ident": 22,
+      "ident": 23,
       "group": "flightmode",
       "name": "yawMode",
       "ctype": "uint8_t",
@@ -234,7 +245,7 @@
     },
     "stabModeRoll": {
       "__class__": "ParamTocElement",
-      "ident": 23,
+      "ident": 24,
       "group": "flightmode",
       "name": "stabModeRoll",
       "ctype": "uint8_t",
@@ -243,7 +254,7 @@
     },
     "stabModePitch": {
       "__class__": "ParamTocElement",
-      "ident": 24,
+      "ident": 25,
       "group": "flightmode",
       "name": "stabModePitch",
       "ctype": "uint8_t",
@@ -252,7 +263,7 @@
     },
     "stabModeYaw": {
       "__class__": "ParamTocElement",
-      "ident": 25,
+      "ident": 26,
       "group": "flightmode",
       "name": "stabModeYaw",
       "ctype": "uint8_t",
@@ -263,7 +274,7 @@
   "cmdrCPPM": {
     "rateRoll": {
       "__class__": "ParamTocElement",
-      "ident": 26,
+      "ident": 27,
       "group": "cmdrCPPM",
       "name": "rateRoll",
       "ctype": "float",
@@ -272,7 +283,7 @@
     },
     "ratePitch": {
       "__class__": "ParamTocElement",
-      "ident": 27,
+      "ident": 28,
       "group": "cmdrCPPM",
       "name": "ratePitch",
       "ctype": "float",
@@ -281,7 +292,7 @@
     },
     "angPitch": {
       "__class__": "ParamTocElement",
-      "ident": 28,
+      "ident": 29,
       "group": "cmdrCPPM",
       "name": "angPitch",
       "ctype": "float",
@@ -290,7 +301,7 @@
     },
     "angRoll": {
       "__class__": "ParamTocElement",
-      "ident": 29,
+      "ident": 30,
       "group": "cmdrCPPM",
       "name": "angRoll",
       "ctype": "float",
@@ -299,7 +310,7 @@
     },
     "rateYaw": {
       "__class__": "ParamTocElement",
-      "ident": 30,
+      "ident": 31,
       "group": "cmdrCPPM",
       "name": "rateYaw",
       "ctype": "float",
@@ -310,7 +321,7 @@
   "locSrv": {
     "enRangeStreamFP32": {
       "__class__": "ParamTocElement",
-      "ident": 31,
+      "ident": 32,
       "group": "locSrv",
       "name": "enRangeStreamFP32",
       "ctype": "uint8_t",
@@ -319,7 +330,7 @@
     },
     "enLhAngleStream": {
       "__class__": "ParamTocElement",
-      "ident": 32,
+      "ident": 33,
       "group": "locSrv",
       "name": "enLhAngleStream",
       "ctype": "uint8_t",
@@ -328,7 +339,7 @@
     },
     "extPosStdDev": {
       "__class__": "ParamTocElement",
-      "ident": 33,
+      "ident": 34,
       "group": "locSrv",
       "name": "extPosStdDev",
       "ctype": "float",
@@ -337,7 +348,7 @@
     },
     "extQuatStdDev": {
       "__class__": "ParamTocElement",
-      "ident": 34,
+      "ident": 35,
       "group": "locSrv",
       "name": "extQuatStdDev",
       "ctype": "float",
@@ -348,7 +359,7 @@
   "pid_attitude": {
     "roll_kp": {
       "__class__": "ParamTocElement",
-      "ident": 35,
+      "ident": 36,
       "group": "pid_attitude",
       "name": "roll_kp",
       "ctype": "float",
@@ -357,7 +368,7 @@
     },
     "roll_ki": {
       "__class__": "ParamTocElement",
-      "ident": 36,
+      "ident": 37,
       "group": "pid_attitude",
       "name": "roll_ki",
       "ctype": "float",
@@ -366,7 +377,7 @@
     },
     "roll_kd": {
       "__class__": "ParamTocElement",
-      "ident": 37,
+      "ident": 38,
       "group": "pid_attitude",
       "name": "roll_kd",
       "ctype": "float",
@@ -375,7 +386,7 @@
     },
     "pitch_kp": {
       "__class__": "ParamTocElement",
-      "ident": 38,
+      "ident": 39,
       "group": "pid_attitude",
       "name": "pitch_kp",
       "ctype": "float",
@@ -384,7 +395,7 @@
     },
     "pitch_ki": {
       "__class__": "ParamTocElement",
-      "ident": 39,
+      "ident": 40,
       "group": "pid_attitude",
       "name": "pitch_ki",
       "ctype": "float",
@@ -393,7 +404,7 @@
     },
     "pitch_kd": {
       "__class__": "ParamTocElement",
-      "ident": 40,
+      "ident": 41,
       "group": "pid_attitude",
       "name": "pitch_kd",
       "ctype": "float",
@@ -402,7 +413,7 @@
     },
     "yaw_kp": {
       "__class__": "ParamTocElement",
-      "ident": 41,
+      "ident": 42,
       "group": "pid_attitude",
       "name": "yaw_kp",
       "ctype": "float",
@@ -411,7 +422,7 @@
     },
     "yaw_ki": {
       "__class__": "ParamTocElement",
-      "ident": 42,
+      "ident": 43,
       "group": "pid_attitude",
       "name": "yaw_ki",
       "ctype": "float",
@@ -420,7 +431,7 @@
     },
     "yaw_kd": {
       "__class__": "ParamTocElement",
-      "ident": 43,
+      "ident": 44,
       "group": "pid_attitude",
       "name": "yaw_kd",
       "ctype": "float",
@@ -431,7 +442,7 @@
   "pid_rate": {
     "roll_kp": {
       "__class__": "ParamTocElement",
-      "ident": 44,
+      "ident": 45,
       "group": "pid_rate",
       "name": "roll_kp",
       "ctype": "float",
@@ -440,7 +451,7 @@
     },
     "roll_ki": {
       "__class__": "ParamTocElement",
-      "ident": 45,
+      "ident": 46,
       "group": "pid_rate",
       "name": "roll_ki",
       "ctype": "float",
@@ -449,7 +460,7 @@
     },
     "roll_kd": {
       "__class__": "ParamTocElement",
-      "ident": 46,
+      "ident": 47,
       "group": "pid_rate",
       "name": "roll_kd",
       "ctype": "float",
@@ -458,7 +469,7 @@
     },
     "pitch_kp": {
       "__class__": "ParamTocElement",
-      "ident": 47,
+      "ident": 48,
       "group": "pid_rate",
       "name": "pitch_kp",
       "ctype": "float",
@@ -467,7 +478,7 @@
     },
     "pitch_ki": {
       "__class__": "ParamTocElement",
-      "ident": 48,
+      "ident": 49,
       "group": "pid_rate",
       "name": "pitch_ki",
       "ctype": "float",
@@ -476,7 +487,7 @@
     },
     "pitch_kd": {
       "__class__": "ParamTocElement",
-      "ident": 49,
+      "ident": 50,
       "group": "pid_rate",
       "name": "pitch_kd",
       "ctype": "float",
@@ -485,7 +496,7 @@
     },
     "yaw_kp": {
       "__class__": "ParamTocElement",
-      "ident": 50,
+      "ident": 51,
       "group": "pid_rate",
       "name": "yaw_kp",
       "ctype": "float",
@@ -494,7 +505,7 @@
     },
     "yaw_ki": {
       "__class__": "ParamTocElement",
-      "ident": 51,
+      "ident": 52,
       "group": "pid_rate",
       "name": "yaw_ki",
       "ctype": "float",
@@ -503,7 +514,7 @@
     },
     "yaw_kd": {
       "__class__": "ParamTocElement",
-      "ident": 52,
+      "ident": 53,
       "group": "pid_rate",
       "name": "yaw_kd",
       "ctype": "float",
@@ -514,7 +525,7 @@
   "sensfusion6": {
     "kp": {
       "__class__": "ParamTocElement",
-      "ident": 53,
+      "ident": 54,
       "group": "sensfusion6",
       "name": "kp",
       "ctype": "float",
@@ -523,7 +534,7 @@
     },
     "ki": {
       "__class__": "ParamTocElement",
-      "ident": 54,
+      "ident": 55,
       "group": "sensfusion6",
       "name": "ki",
       "ctype": "float",
@@ -532,7 +543,7 @@
     },
     "baseZacc": {
       "__class__": "ParamTocElement",
-      "ident": 55,
+      "ident": 56,
       "group": "sensfusion6",
       "name": "baseZacc",
       "ctype": "float",
@@ -543,7 +554,7 @@
   "stabilizer": {
     "estimator": {
       "__class__": "ParamTocElement",
-      "ident": 56,
+      "ident": 57,
       "group": "stabilizer",
       "name": "estimator",
       "ctype": "uint8_t",
@@ -552,7 +563,7 @@
     },
     "controller": {
       "__class__": "ParamTocElement",
-      "ident": 57,
+      "ident": 58,
       "group": "stabilizer",
       "name": "controller",
       "ctype": "uint8_t",
@@ -561,7 +572,7 @@
     },
     "stop": {
       "__class__": "ParamTocElement",
-      "ident": 58,
+      "ident": 59,
       "group": "stabilizer",
       "name": "stop",
       "ctype": "uint8_t",
@@ -572,7 +583,7 @@
   "posEstAlt": {
     "estAlphaAsl": {
       "__class__": "ParamTocElement",
-      "ident": 59,
+      "ident": 60,
       "group": "posEstAlt",
       "name": "estAlphaAsl",
       "ctype": "float",
@@ -581,7 +592,7 @@
     },
     "estAlphaZr": {
       "__class__": "ParamTocElement",
-      "ident": 60,
+      "ident": 61,
       "group": "posEstAlt",
       "name": "estAlphaZr",
       "ctype": "float",
@@ -590,7 +601,7 @@
     },
     "velFactor": {
       "__class__": "ParamTocElement",
-      "ident": 61,
+      "ident": 62,
       "group": "posEstAlt",
       "name": "velFactor",
       "ctype": "float",
@@ -599,7 +610,7 @@
     },
     "velZAlpha": {
       "__class__": "ParamTocElement",
-      "ident": 62,
+      "ident": 63,
       "group": "posEstAlt",
       "name": "velZAlpha",
       "ctype": "float",
@@ -608,7 +619,7 @@
     },
     "vAccDeadband": {
       "__class__": "ParamTocElement",
-      "ident": 63,
+      "ident": 64,
       "group": "posEstAlt",
       "name": "vAccDeadband",
       "ctype": "float",
@@ -619,7 +630,7 @@
   "posCtlPid": {
     "xKp": {
       "__class__": "ParamTocElement",
-      "ident": 64,
+      "ident": 65,
       "group": "posCtlPid",
       "name": "xKp",
       "ctype": "float",
@@ -628,7 +639,7 @@
     },
     "xKi": {
       "__class__": "ParamTocElement",
-      "ident": 65,
+      "ident": 66,
       "group": "posCtlPid",
       "name": "xKi",
       "ctype": "float",
@@ -637,7 +648,7 @@
     },
     "xKd": {
       "__class__": "ParamTocElement",
-      "ident": 66,
+      "ident": 67,
       "group": "posCtlPid",
       "name": "xKd",
       "ctype": "float",
@@ -646,7 +657,7 @@
     },
     "yKp": {
       "__class__": "ParamTocElement",
-      "ident": 67,
+      "ident": 68,
       "group": "posCtlPid",
       "name": "yKp",
       "ctype": "float",
@@ -655,7 +666,7 @@
     },
     "yKi": {
       "__class__": "ParamTocElement",
-      "ident": 68,
+      "ident": 69,
       "group": "posCtlPid",
       "name": "yKi",
       "ctype": "float",
@@ -664,7 +675,7 @@
     },
     "yKd": {
       "__class__": "ParamTocElement",
-      "ident": 69,
+      "ident": 70,
       "group": "posCtlPid",
       "name": "yKd",
       "ctype": "float",
@@ -673,7 +684,7 @@
     },
     "zKp": {
       "__class__": "ParamTocElement",
-      "ident": 70,
+      "ident": 71,
       "group": "posCtlPid",
       "name": "zKp",
       "ctype": "float",
@@ -682,7 +693,7 @@
     },
     "zKi": {
       "__class__": "ParamTocElement",
-      "ident": 71,
+      "ident": 72,
       "group": "posCtlPid",
       "name": "zKi",
       "ctype": "float",
@@ -691,7 +702,7 @@
     },
     "zKd": {
       "__class__": "ParamTocElement",
-      "ident": 72,
+      "ident": 73,
       "group": "posCtlPid",
       "name": "zKd",
       "ctype": "float",
@@ -700,7 +711,7 @@
     },
     "thrustBase": {
       "__class__": "ParamTocElement",
-      "ident": 73,
+      "ident": 74,
       "group": "posCtlPid",
       "name": "thrustBase",
       "ctype": "uint16_t",
@@ -709,7 +720,7 @@
     },
     "thrustMin": {
       "__class__": "ParamTocElement",
-      "ident": 74,
+      "ident": 75,
       "group": "posCtlPid",
       "name": "thrustMin",
       "ctype": "uint16_t",
@@ -718,7 +729,7 @@
     },
     "rpLimit": {
       "__class__": "ParamTocElement",
-      "ident": 75,
+      "ident": 76,
       "group": "posCtlPid",
       "name": "rpLimit",
       "ctype": "float",
@@ -727,7 +738,7 @@
     },
     "xyVelMax": {
       "__class__": "ParamTocElement",
-      "ident": 76,
+      "ident": 77,
       "group": "posCtlPid",
       "name": "xyVelMax",
       "ctype": "float",
@@ -736,7 +747,7 @@
     },
     "zVelMax": {
       "__class__": "ParamTocElement",
-      "ident": 77,
+      "ident": 78,
       "group": "posCtlPid",
       "name": "zVelMax",
       "ctype": "float",
@@ -747,7 +758,7 @@
   "velCtlPid": {
     "vxKp": {
       "__class__": "ParamTocElement",
-      "ident": 78,
+      "ident": 79,
       "group": "velCtlPid",
       "name": "vxKp",
       "ctype": "float",
@@ -756,7 +767,7 @@
     },
     "vxKi": {
       "__class__": "ParamTocElement",
-      "ident": 79,
+      "ident": 80,
       "group": "velCtlPid",
       "name": "vxKi",
       "ctype": "float",
@@ -765,7 +776,7 @@
     },
     "vxKd": {
       "__class__": "ParamTocElement",
-      "ident": 80,
+      "ident": 81,
       "group": "velCtlPid",
       "name": "vxKd",
       "ctype": "float",
@@ -774,7 +785,7 @@
     },
     "vyKp": {
       "__class__": "ParamTocElement",
-      "ident": 81,
+      "ident": 82,
       "group": "velCtlPid",
       "name": "vyKp",
       "ctype": "float",
@@ -783,7 +794,7 @@
     },
     "vyKi": {
       "__class__": "ParamTocElement",
-      "ident": 82,
+      "ident": 83,
       "group": "velCtlPid",
       "name": "vyKi",
       "ctype": "float",
@@ -792,7 +803,7 @@
     },
     "vyKd": {
       "__class__": "ParamTocElement",
-      "ident": 83,
+      "ident": 84,
       "group": "velCtlPid",
       "name": "vyKd",
       "ctype": "float",
@@ -801,7 +812,7 @@
     },
     "vzKp": {
       "__class__": "ParamTocElement",
-      "ident": 84,
+      "ident": 85,
       "group": "velCtlPid",
       "name": "vzKp",
       "ctype": "float",
@@ -810,7 +821,7 @@
     },
     "vzKi": {
       "__class__": "ParamTocElement",
-      "ident": 85,
+      "ident": 86,
       "group": "velCtlPid",
       "name": "vzKi",
       "ctype": "float",
@@ -819,7 +830,7 @@
     },
     "vzKd": {
       "__class__": "ParamTocElement",
-      "ident": 86,
+      "ident": 87,
       "group": "velCtlPid",
       "name": "vzKd",
       "ctype": "float",
@@ -830,7 +841,7 @@
   "posCtrlIndi": {
     "K_xi_x": {
       "__class__": "ParamTocElement",
-      "ident": 87,
+      "ident": 88,
       "group": "posCtrlIndi",
       "name": "K_xi_x",
       "ctype": "float",
@@ -839,7 +850,7 @@
     },
     "K_xi_y": {
       "__class__": "ParamTocElement",
-      "ident": 88,
+      "ident": 89,
       "group": "posCtrlIndi",
       "name": "K_xi_y",
       "ctype": "float",
@@ -848,7 +859,7 @@
     },
     "K_xi_z": {
       "__class__": "ParamTocElement",
-      "ident": 89,
+      "ident": 90,
       "group": "posCtrlIndi",
       "name": "K_xi_z",
       "ctype": "float",
@@ -857,7 +868,7 @@
     },
     "K_dxi_x": {
       "__class__": "ParamTocElement",
-      "ident": 90,
+      "ident": 91,
       "group": "posCtrlIndi",
       "name": "K_dxi_x",
       "ctype": "float",
@@ -866,7 +877,7 @@
     },
     "K_dxi_y": {
       "__class__": "ParamTocElement",
-      "ident": 91,
+      "ident": 92,
       "group": "posCtrlIndi",
       "name": "K_dxi_y",
       "ctype": "float",
@@ -875,7 +886,7 @@
     },
     "K_dxi_z": {
       "__class__": "ParamTocElement",
-      "ident": 92,
+      "ident": 93,
       "group": "posCtrlIndi",
       "name": "K_dxi_z",
       "ctype": "float",
@@ -884,7 +895,7 @@
     },
     "pq_clamping": {
       "__class__": "ParamTocElement",
-      "ident": 93,
+      "ident": 94,
       "group": "posCtrlIndi",
       "name": "pq_clamping",
       "ctype": "float",
@@ -895,7 +906,7 @@
   "controller": {
     "tiltComp": {
       "__class__": "ParamTocElement",
-      "ident": 94,
+      "ident": 95,
       "group": "controller",
       "name": "tiltComp",
       "ctype": "uint8_t",
@@ -906,7 +917,7 @@
   "ctrlMel": {
     "kp_xy": {
       "__class__": "ParamTocElement",
-      "ident": 95,
+      "ident": 96,
       "group": "ctrlMel",
       "name": "kp_xy",
       "ctype": "float",
@@ -915,7 +926,7 @@
     },
     "kd_xy": {
       "__class__": "ParamTocElement",
-      "ident": 96,
+      "ident": 97,
       "group": "ctrlMel",
       "name": "kd_xy",
       "ctype": "float",
@@ -924,7 +935,7 @@
     },
     "ki_xy": {
       "__class__": "ParamTocElement",
-      "ident": 97,
+      "ident": 98,
       "group": "ctrlMel",
       "name": "ki_xy",
       "ctype": "float",
@@ -933,7 +944,7 @@
     },
     "i_range_xy": {
       "__class__": "ParamTocElement",
-      "ident": 98,
+      "ident": 99,
       "group": "ctrlMel",
       "name": "i_range_xy",
       "ctype": "float",
@@ -942,7 +953,7 @@
     },
     "kp_z": {
       "__class__": "ParamTocElement",
-      "ident": 99,
+      "ident": 100,
       "group": "ctrlMel",
       "name": "kp_z",
       "ctype": "float",
@@ -951,7 +962,7 @@
     },
     "kd_z": {
       "__class__": "ParamTocElement",
-      "ident": 100,
+      "ident": 101,
       "group": "ctrlMel",
       "name": "kd_z",
       "ctype": "float",
@@ -960,7 +971,7 @@
     },
     "ki_z": {
       "__class__": "ParamTocElement",
-      "ident": 101,
+      "ident": 102,
       "group": "ctrlMel",
       "name": "ki_z",
       "ctype": "float",
@@ -969,7 +980,7 @@
     },
     "i_range_z": {
       "__class__": "ParamTocElement",
-      "ident": 102,
+      "ident": 103,
       "group": "ctrlMel",
       "name": "i_range_z",
       "ctype": "float",
@@ -978,7 +989,7 @@
     },
     "mass": {
       "__class__": "ParamTocElement",
-      "ident": 103,
+      "ident": 104,
       "group": "ctrlMel",
       "name": "mass",
       "ctype": "float",
@@ -987,7 +998,7 @@
     },
     "massThrust": {
       "__class__": "ParamTocElement",
-      "ident": 104,
+      "ident": 105,
       "group": "ctrlMel",
       "name": "massThrust",
       "ctype": "float",
@@ -996,7 +1007,7 @@
     },
     "kR_xy": {
       "__class__": "ParamTocElement",
-      "ident": 105,
+      "ident": 106,
       "group": "ctrlMel",
       "name": "kR_xy",
       "ctype": "float",
@@ -1005,7 +1016,7 @@
     },
     "kR_z": {
       "__class__": "ParamTocElement",
-      "ident": 106,
+      "ident": 107,
       "group": "ctrlMel",
       "name": "kR_z",
       "ctype": "float",
@@ -1014,7 +1025,7 @@
     },
     "kw_xy": {
       "__class__": "ParamTocElement",
-      "ident": 107,
+      "ident": 108,
       "group": "ctrlMel",
       "name": "kw_xy",
       "ctype": "float",
@@ -1023,7 +1034,7 @@
     },
     "kw_z": {
       "__class__": "ParamTocElement",
-      "ident": 108,
+      "ident": 109,
       "group": "ctrlMel",
       "name": "kw_z",
       "ctype": "float",
@@ -1032,7 +1043,7 @@
     },
     "ki_m_xy": {
       "__class__": "ParamTocElement",
-      "ident": 109,
+      "ident": 110,
       "group": "ctrlMel",
       "name": "ki_m_xy",
       "ctype": "float",
@@ -1041,7 +1052,7 @@
     },
     "ki_m_z": {
       "__class__": "ParamTocElement",
-      "ident": 110,
+      "ident": 111,
       "group": "ctrlMel",
       "name": "ki_m_z",
       "ctype": "float",
@@ -1050,7 +1061,7 @@
     },
     "kd_omega_rp": {
       "__class__": "ParamTocElement",
-      "ident": 111,
+      "ident": 112,
       "group": "ctrlMel",
       "name": "kd_omega_rp",
       "ctype": "float",
@@ -1059,7 +1070,7 @@
     },
     "i_range_m_xy": {
       "__class__": "ParamTocElement",
-      "ident": 112,
+      "ident": 113,
       "group": "ctrlMel",
       "name": "i_range_m_xy",
       "ctype": "float",
@@ -1068,7 +1079,7 @@
     },
     "i_range_m_z": {
       "__class__": "ParamTocElement",
-      "ident": 113,
+      "ident": 114,
       "group": "ctrlMel",
       "name": "i_range_m_z",
       "ctype": "float",
@@ -1079,7 +1090,7 @@
   "ctrlINDI": {
     "thrust_threshold": {
       "__class__": "ParamTocElement",
-      "ident": 114,
+      "ident": 115,
       "group": "ctrlINDI",
       "name": "thrust_threshold",
       "ctype": "float",
@@ -1088,7 +1099,7 @@
     },
     "bound_ctrl_input": {
       "__class__": "ParamTocElement",
-      "ident": 115,
+      "ident": 116,
       "group": "ctrlINDI",
       "name": "bound_ctrl_input",
       "ctype": "float",
@@ -1097,7 +1108,7 @@
     },
     "g1_p": {
       "__class__": "ParamTocElement",
-      "ident": 116,
+      "ident": 117,
       "group": "ctrlINDI",
       "name": "g1_p",
       "ctype": "float",
@@ -1106,7 +1117,7 @@
     },
     "g1_q": {
       "__class__": "ParamTocElement",
-      "ident": 117,
+      "ident": 118,
       "group": "ctrlINDI",
       "name": "g1_q",
       "ctype": "float",
@@ -1115,7 +1126,7 @@
     },
     "g1_r": {
       "__class__": "ParamTocElement",
-      "ident": 118,
+      "ident": 119,
       "group": "ctrlINDI",
       "name": "g1_r",
       "ctype": "float",
@@ -1124,7 +1135,7 @@
     },
     "g2": {
       "__class__": "ParamTocElement",
-      "ident": 119,
+      "ident": 120,
       "group": "ctrlINDI",
       "name": "g2",
       "ctype": "float",
@@ -1133,7 +1144,7 @@
     },
     "ref_err_p": {
       "__class__": "ParamTocElement",
-      "ident": 120,
+      "ident": 121,
       "group": "ctrlINDI",
       "name": "ref_err_p",
       "ctype": "float",
@@ -1142,7 +1153,7 @@
     },
     "ref_err_q": {
       "__class__": "ParamTocElement",
-      "ident": 121,
+      "ident": 122,
       "group": "ctrlINDI",
       "name": "ref_err_q",
       "ctype": "float",
@@ -1151,7 +1162,7 @@
     },
     "ref_err_r": {
       "__class__": "ParamTocElement",
-      "ident": 122,
+      "ident": 123,
       "group": "ctrlINDI",
       "name": "ref_err_r",
       "ctype": "float",
@@ -1160,7 +1171,7 @@
     },
     "ref_rate_p": {
       "__class__": "ParamTocElement",
-      "ident": 123,
+      "ident": 124,
       "group": "ctrlINDI",
       "name": "ref_rate_p",
       "ctype": "float",
@@ -1169,7 +1180,7 @@
     },
     "ref_rate_q": {
       "__class__": "ParamTocElement",
-      "ident": 124,
+      "ident": 125,
       "group": "ctrlINDI",
       "name": "ref_rate_q",
       "ctype": "float",
@@ -1178,7 +1189,7 @@
     },
     "ref_rate_r": {
       "__class__": "ParamTocElement",
-      "ident": 125,
+      "ident": 126,
       "group": "ctrlINDI",
       "name": "ref_rate_r",
       "ctype": "float",
@@ -1187,7 +1198,7 @@
     },
     "act_dyn_p": {
       "__class__": "ParamTocElement",
-      "ident": 126,
+      "ident": 127,
       "group": "ctrlINDI",
       "name": "act_dyn_p",
       "ctype": "float",
@@ -1196,7 +1207,7 @@
     },
     "act_dyn_q": {
       "__class__": "ParamTocElement",
-      "ident": 127,
+      "ident": 128,
       "group": "ctrlINDI",
       "name": "act_dyn_q",
       "ctype": "float",
@@ -1205,7 +1216,7 @@
     },
     "act_dyn_r": {
       "__class__": "ParamTocElement",
-      "ident": 128,
+      "ident": 129,
       "group": "ctrlINDI",
       "name": "act_dyn_r",
       "ctype": "float",
@@ -1214,7 +1225,7 @@
     },
     "filt_cutoff": {
       "__class__": "ParamTocElement",
-      "ident": 129,
+      "ident": 130,
       "group": "ctrlINDI",
       "name": "filt_cutoff",
       "ctype": "float",
@@ -1223,7 +1234,7 @@
     },
     "filt_cutoff_r": {
       "__class__": "ParamTocElement",
-      "ident": 130,
+      "ident": 131,
       "group": "ctrlINDI",
       "name": "filt_cutoff_r",
       "ctype": "float",
@@ -1232,7 +1243,7 @@
     },
     "outerLoopActive": {
       "__class__": "ParamTocElement",
-      "ident": 131,
+      "ident": 132,
       "group": "ctrlINDI",
       "name": "outerLoopActive",
       "ctype": "uint8_t",
@@ -1243,7 +1254,7 @@
   "motorPowerSet": {
     "enable": {
       "__class__": "ParamTocElement",
-      "ident": 132,
+      "ident": 133,
       "group": "motorPowerSet",
       "name": "enable",
       "ctype": "uint8_t",
@@ -1252,7 +1263,7 @@
     },
     "m1": {
       "__class__": "ParamTocElement",
-      "ident": 133,
+      "ident": 134,
       "group": "motorPowerSet",
       "name": "m1",
       "ctype": "uint16_t",
@@ -1261,7 +1272,7 @@
     },
     "m2": {
       "__class__": "ParamTocElement",
-      "ident": 134,
+      "ident": 135,
       "group": "motorPowerSet",
       "name": "m2",
       "ctype": "uint16_t",
@@ -1270,7 +1281,7 @@
     },
     "m3": {
       "__class__": "ParamTocElement",
-      "ident": 135,
+      "ident": 136,
       "group": "motorPowerSet",
       "name": "m3",
       "ctype": "uint16_t",
@@ -1279,7 +1290,7 @@
     },
     "m4": {
       "__class__": "ParamTocElement",
-      "ident": 136,
+      "ident": 137,
       "group": "motorPowerSet",
       "name": "m4",
       "ctype": "uint16_t",
@@ -1290,7 +1301,7 @@
   "powerDist": {
     "idleThrust": {
       "__class__": "ParamTocElement",
-      "ident": 137,
+      "ident": 138,
       "group": "powerDist",
       "name": "idleThrust",
       "ctype": "uint32_t",
@@ -1301,7 +1312,7 @@
   "colAv": {
     "enable": {
       "__class__": "ParamTocElement",
-      "ident": 138,
+      "ident": 139,
       "group": "colAv",
       "name": "enable",
       "ctype": "uint8_t",
@@ -1310,7 +1321,7 @@
     },
     "ellipsoidX": {
       "__class__": "ParamTocElement",
-      "ident": 139,
+      "ident": 140,
       "group": "colAv",
       "name": "ellipsoidX",
       "ctype": "float",
@@ -1319,7 +1330,7 @@
     },
     "ellipsoidY": {
       "__class__": "ParamTocElement",
-      "ident": 140,
+      "ident": 141,
       "group": "colAv",
       "name": "ellipsoidY",
       "ctype": "float",
@@ -1328,7 +1339,7 @@
     },
     "ellipsoidZ": {
       "__class__": "ParamTocElement",
-      "ident": 141,
+      "ident": 142,
       "group": "colAv",
       "name": "ellipsoidZ",
       "ctype": "float",
@@ -1337,7 +1348,7 @@
     },
     "bboxMinX": {
       "__class__": "ParamTocElement",
-      "ident": 142,
+      "ident": 143,
       "group": "colAv",
       "name": "bboxMinX",
       "ctype": "float",
@@ -1346,7 +1357,7 @@
     },
     "bboxMinY": {
       "__class__": "ParamTocElement",
-      "ident": 143,
+      "ident": 144,
       "group": "colAv",
       "name": "bboxMinY",
       "ctype": "float",
@@ -1355,7 +1366,7 @@
     },
     "bboxMinZ": {
       "__class__": "ParamTocElement",
-      "ident": 144,
+      "ident": 145,
       "group": "colAv",
       "name": "bboxMinZ",
       "ctype": "float",
@@ -1364,7 +1375,7 @@
     },
     "bboxMaxX": {
       "__class__": "ParamTocElement",
-      "ident": 145,
+      "ident": 146,
       "group": "colAv",
       "name": "bboxMaxX",
       "ctype": "float",
@@ -1373,7 +1384,7 @@
     },
     "bboxMaxY": {
       "__class__": "ParamTocElement",
-      "ident": 146,
+      "ident": 147,
       "group": "colAv",
       "name": "bboxMaxY",
       "ctype": "float",
@@ -1382,7 +1393,7 @@
     },
     "bboxMaxZ": {
       "__class__": "ParamTocElement",
-      "ident": 147,
+      "ident": 148,
       "group": "colAv",
       "name": "bboxMaxZ",
       "ctype": "float",
@@ -1391,7 +1402,7 @@
     },
     "horizon": {
       "__class__": "ParamTocElement",
-      "ident": 148,
+      "ident": 149,
       "group": "colAv",
       "name": "horizon",
       "ctype": "float",
@@ -1400,7 +1411,7 @@
     },
     "maxSpeed": {
       "__class__": "ParamTocElement",
-      "ident": 149,
+      "ident": 150,
       "group": "colAv",
       "name": "maxSpeed",
       "ctype": "float",
@@ -1409,7 +1420,7 @@
     },
     "sidestepThrsh": {
       "__class__": "ParamTocElement",
-      "ident": 150,
+      "ident": 151,
       "group": "colAv",
       "name": "sidestepThrsh",
       "ctype": "float",
@@ -1418,7 +1429,7 @@
     },
     "maxPeerLocAge": {
       "__class__": "ParamTocElement",
-      "ident": 151,
+      "ident": 152,
       "group": "colAv",
       "name": "maxPeerLocAge",
       "ctype": "int32_t",
@@ -1427,7 +1438,7 @@
     },
     "vorTol": {
       "__class__": "ParamTocElement",
-      "ident": 152,
+      "ident": 153,
       "group": "colAv",
       "name": "vorTol",
       "ctype": "float",
@@ -1436,7 +1447,7 @@
     },
     "vorIters": {
       "__class__": "ParamTocElement",
-      "ident": 153,
+      "ident": 154,
       "group": "colAv",
       "name": "vorIters",
       "ctype": "int32_t",
@@ -1447,7 +1458,7 @@
   "health": {
     "startPropTest": {
       "__class__": "ParamTocElement",
-      "ident": 154,
+      "ident": 155,
       "group": "health",
       "name": "startPropTest",
       "ctype": "uint8_t",
@@ -1456,18 +1467,27 @@
     },
     "startBatTest": {
       "__class__": "ParamTocElement",
-      "ident": 155,
+      "ident": 156,
       "group": "health",
       "name": "startBatTest",
       "ctype": "uint8_t",
       "pytype": "<B",
+      "access": 0
+    },
+    "propTestPWMRatio": {
+      "__class__": "ParamTocElement",
+      "ident": 157,
+      "group": "health",
+      "name": "propTestPWMRatio",
+      "ctype": "uint16_t",
+      "pytype": "<H",
       "access": 0
     }
   },
   "kalman": {
     "resetEstimation": {
       "__class__": "ParamTocElement",
-      "ident": 156,
+      "ident": 158,
       "group": "kalman",
       "name": "resetEstimation",
       "ctype": "uint8_t",
@@ -1476,7 +1496,7 @@
     },
     "quadIsFlying": {
       "__class__": "ParamTocElement",
-      "ident": 157,
+      "ident": 159,
       "group": "kalman",
       "name": "quadIsFlying",
       "ctype": "uint8_t",
@@ -1485,7 +1505,7 @@
     },
     "robustTdoa": {
       "__class__": "ParamTocElement",
-      "ident": 158,
+      "ident": 160,
       "group": "kalman",
       "name": "robustTdoa",
       "ctype": "uint8_t",
@@ -1494,7 +1514,7 @@
     },
     "robustTwr": {
       "__class__": "ParamTocElement",
-      "ident": 159,
+      "ident": 161,
       "group": "kalman",
       "name": "robustTwr",
       "ctype": "uint8_t",
@@ -1503,7 +1523,7 @@
     },
     "pNAcc_xy": {
       "__class__": "ParamTocElement",
-      "ident": 160,
+      "ident": 162,
       "group": "kalman",
       "name": "pNAcc_xy",
       "ctype": "float",
@@ -1512,7 +1532,7 @@
     },
     "pNAcc_z": {
       "__class__": "ParamTocElement",
-      "ident": 161,
+      "ident": 163,
       "group": "kalman",
       "name": "pNAcc_z",
       "ctype": "float",
@@ -1521,7 +1541,7 @@
     },
     "pNVel": {
       "__class__": "ParamTocElement",
-      "ident": 162,
+      "ident": 164,
       "group": "kalman",
       "name": "pNVel",
       "ctype": "float",
@@ -1530,7 +1550,7 @@
     },
     "pNPos": {
       "__class__": "ParamTocElement",
-      "ident": 163,
+      "ident": 165,
       "group": "kalman",
       "name": "pNPos",
       "ctype": "float",
@@ -1539,7 +1559,7 @@
     },
     "pNAtt": {
       "__class__": "ParamTocElement",
-      "ident": 164,
+      "ident": 166,
       "group": "kalman",
       "name": "pNAtt",
       "ctype": "float",
@@ -1548,7 +1568,7 @@
     },
     "mNBaro": {
       "__class__": "ParamTocElement",
-      "ident": 165,
+      "ident": 167,
       "group": "kalman",
       "name": "mNBaro",
       "ctype": "float",
@@ -1557,7 +1577,7 @@
     },
     "mNGyro_rollpitch": {
       "__class__": "ParamTocElement",
-      "ident": 166,
+      "ident": 168,
       "group": "kalman",
       "name": "mNGyro_rollpitch",
       "ctype": "float",
@@ -1566,7 +1586,7 @@
     },
     "mNGyro_yaw": {
       "__class__": "ParamTocElement",
-      "ident": 167,
+      "ident": 169,
       "group": "kalman",
       "name": "mNGyro_yaw",
       "ctype": "float",
@@ -1575,7 +1595,7 @@
     },
     "initialX": {
       "__class__": "ParamTocElement",
-      "ident": 168,
+      "ident": 170,
       "group": "kalman",
       "name": "initialX",
       "ctype": "float",
@@ -1584,7 +1604,7 @@
     },
     "initialY": {
       "__class__": "ParamTocElement",
-      "ident": 169,
+      "ident": 171,
       "group": "kalman",
       "name": "initialY",
       "ctype": "float",
@@ -1593,7 +1613,7 @@
     },
     "initialZ": {
       "__class__": "ParamTocElement",
-      "ident": 170,
+      "ident": 172,
       "group": "kalman",
       "name": "initialZ",
       "ctype": "float",
@@ -1602,7 +1622,7 @@
     },
     "initialYaw": {
       "__class__": "ParamTocElement",
-      "ident": 171,
+      "ident": 173,
       "group": "kalman",
       "name": "initialYaw",
       "ctype": "float",
@@ -1611,7 +1631,7 @@
     },
     "maxPos": {
       "__class__": "ParamTocElement",
-      "ident": 172,
+      "ident": 174,
       "group": "kalman",
       "name": "maxPos",
       "ctype": "float",
@@ -1620,7 +1640,7 @@
     },
     "maxVel": {
       "__class__": "ParamTocElement",
-      "ident": 173,
+      "ident": 175,
       "group": "kalman",
       "name": "maxVel",
       "ctype": "float",
@@ -1631,7 +1651,7 @@
   "hlCommander": {
     "vtoff": {
       "__class__": "ParamTocElement",
-      "ident": 174,
+      "ident": 176,
       "group": "hlCommander",
       "name": "vtoff",
       "ctype": "float",
@@ -1640,7 +1660,7 @@
     },
     "vland": {
       "__class__": "ParamTocElement",
-      "ident": 175,
+      "ident": 177,
       "group": "hlCommander",
       "name": "vland",
       "ctype": "float",
@@ -1651,7 +1671,7 @@
   "deck": {
     "bcLedRing": {
       "__class__": "ParamTocElement",
-      "ident": 176,
+      "ident": 178,
       "group": "deck",
       "name": "bcLedRing",
       "ctype": "uint8_t",
@@ -1660,7 +1680,7 @@
     },
     "bcBuzzer": {
       "__class__": "ParamTocElement",
-      "ident": 188,
+      "ident": 190,
       "group": "deck",
       "name": "bcBuzzer",
       "ctype": "uint8_t",
@@ -1669,7 +1689,7 @@
     },
     "bcGTGPS": {
       "__class__": "ParamTocElement",
-      "ident": 189,
+      "ident": 191,
       "group": "deck",
       "name": "bcGTGPS",
       "ctype": "uint8_t",
@@ -1678,7 +1698,7 @@
     },
     "bcCPPM": {
       "__class__": "ParamTocElement",
-      "ident": 190,
+      "ident": 192,
       "group": "deck",
       "name": "bcCPPM",
       "ctype": "uint8_t",
@@ -1687,7 +1707,7 @@
     },
     "bcUSD": {
       "__class__": "ParamTocElement",
-      "ident": 191,
+      "ident": 193,
       "group": "deck",
       "name": "bcUSD",
       "ctype": "uint8_t",
@@ -1696,7 +1716,7 @@
     },
     "bcZRanger": {
       "__class__": "ParamTocElement",
-      "ident": 194,
+      "ident": 196,
       "group": "deck",
       "name": "bcZRanger",
       "ctype": "uint8_t",
@@ -1705,7 +1725,7 @@
     },
     "bcZRanger2": {
       "__class__": "ParamTocElement",
-      "ident": 195,
+      "ident": 197,
       "group": "deck",
       "name": "bcZRanger2",
       "ctype": "uint8_t",
@@ -1714,7 +1734,7 @@
     },
     "bcDWM1000": {
       "__class__": "ParamTocElement",
-      "ident": 196,
+      "ident": 198,
       "group": "deck",
       "name": "bcDWM1000",
       "ctype": "uint8_t",
@@ -1723,7 +1743,7 @@
     },
     "bcFlow": {
       "__class__": "ParamTocElement",
-      "ident": 201,
+      "ident": 203,
       "group": "deck",
       "name": "bcFlow",
       "ctype": "uint8_t",
@@ -1732,7 +1752,7 @@
     },
     "bcFlow2": {
       "__class__": "ParamTocElement",
-      "ident": 202,
+      "ident": 204,
       "group": "deck",
       "name": "bcFlow2",
       "ctype": "uint8_t",
@@ -1741,7 +1761,7 @@
     },
     "bcOA": {
       "__class__": "ParamTocElement",
-      "ident": 206,
+      "ident": 208,
       "group": "deck",
       "name": "bcOA",
       "ctype": "uint8_t",
@@ -1750,7 +1770,7 @@
     },
     "bcMultiranger": {
       "__class__": "ParamTocElement",
-      "ident": 207,
+      "ident": 209,
       "group": "deck",
       "name": "bcMultiranger",
       "ctype": "uint8_t",
@@ -1759,7 +1779,7 @@
     },
     "bcLighthouse4": {
       "__class__": "ParamTocElement",
-      "ident": 208,
+      "ident": 215,
       "group": "deck",
       "name": "bcLighthouse4",
       "ctype": "uint8_t",
@@ -1768,7 +1788,7 @@
     },
     "bcActiveMarker": {
       "__class__": "ParamTocElement",
-      "ident": 215,
+      "ident": 222,
       "group": "deck",
       "name": "bcActiveMarker",
       "ctype": "uint8_t",
@@ -1777,7 +1797,7 @@
     },
     "bcAIDeck": {
       "__class__": "ParamTocElement",
-      "ident": 216,
+      "ident": 223,
       "group": "deck",
       "name": "bcAIDeck",
       "ctype": "uint8_t",
@@ -1788,7 +1808,7 @@
   "ring": {
     "effect": {
       "__class__": "ParamTocElement",
-      "ident": 177,
+      "ident": 179,
       "group": "ring",
       "name": "effect",
       "ctype": "uint8_t",
@@ -1797,7 +1817,7 @@
     },
     "neffect": {
       "__class__": "ParamTocElement",
-      "ident": 178,
+      "ident": 180,
       "group": "ring",
       "name": "neffect",
       "ctype": "uint32_t",
@@ -1806,7 +1826,7 @@
     },
     "solidRed": {
       "__class__": "ParamTocElement",
-      "ident": 179,
+      "ident": 181,
       "group": "ring",
       "name": "solidRed",
       "ctype": "uint8_t",
@@ -1815,7 +1835,7 @@
     },
     "solidGreen": {
       "__class__": "ParamTocElement",
-      "ident": 180,
+      "ident": 182,
       "group": "ring",
       "name": "solidGreen",
       "ctype": "uint8_t",
@@ -1824,7 +1844,7 @@
     },
     "solidBlue": {
       "__class__": "ParamTocElement",
-      "ident": 181,
+      "ident": 183,
       "group": "ring",
       "name": "solidBlue",
       "ctype": "uint8_t",
@@ -1833,7 +1853,7 @@
     },
     "headlightEnable": {
       "__class__": "ParamTocElement",
-      "ident": 182,
+      "ident": 184,
       "group": "ring",
       "name": "headlightEnable",
       "ctype": "uint8_t",
@@ -1842,7 +1862,7 @@
     },
     "emptyCharge": {
       "__class__": "ParamTocElement",
-      "ident": 183,
+      "ident": 185,
       "group": "ring",
       "name": "emptyCharge",
       "ctype": "float",
@@ -1851,7 +1871,7 @@
     },
     "fullCharge": {
       "__class__": "ParamTocElement",
-      "ident": 184,
+      "ident": 186,
       "group": "ring",
       "name": "fullCharge",
       "ctype": "float",
@@ -1860,7 +1880,7 @@
     },
     "fadeColor": {
       "__class__": "ParamTocElement",
-      "ident": 185,
+      "ident": 187,
       "group": "ring",
       "name": "fadeColor",
       "ctype": "uint32_t",
@@ -1869,7 +1889,7 @@
     },
     "fadeTime": {
       "__class__": "ParamTocElement",
-      "ident": 186,
+      "ident": 188,
       "group": "ring",
       "name": "fadeTime",
       "ctype": "float",
@@ -1880,7 +1900,7 @@
   "usd": {
     "canLog": {
       "__class__": "ParamTocElement",
-      "ident": 192,
+      "ident": 194,
       "group": "usd",
       "name": "canLog",
       "ctype": "uint8_t",
@@ -1889,7 +1909,7 @@
     },
     "logging": {
       "__class__": "ParamTocElement",
-      "ident": 193,
+      "ident": 195,
       "group": "usd",
       "name": "logging",
       "ctype": "uint8_t",
@@ -1900,7 +1920,7 @@
   "loco": {
     "mode": {
       "__class__": "ParamTocElement",
-      "ident": 197,
+      "ident": 199,
       "group": "loco",
       "name": "mode",
       "ctype": "uint8_t",
@@ -1911,7 +1931,7 @@
   "tdoaEngine": {
     "logId": {
       "__class__": "ParamTocElement",
-      "ident": 198,
+      "ident": 200,
       "group": "tdoaEngine",
       "name": "logId",
       "ctype": "uint8_t",
@@ -1920,7 +1940,7 @@
     },
     "logOthrId": {
       "__class__": "ParamTocElement",
-      "ident": 199,
+      "ident": 201,
       "group": "tdoaEngine",
       "name": "logOthrId",
       "ctype": "uint8_t",
@@ -1929,7 +1949,7 @@
     },
     "matchAlgo": {
       "__class__": "ParamTocElement",
-      "ident": 200,
+      "ident": 202,
       "group": "tdoaEngine",
       "name": "matchAlgo",
       "ctype": "uint8_t",
@@ -1940,7 +1960,7 @@
   "motion": {
     "disable": {
       "__class__": "ParamTocElement",
-      "ident": 203,
+      "ident": 205,
       "group": "motion",
       "name": "disable",
       "ctype": "uint8_t",
@@ -1949,7 +1969,7 @@
     },
     "adaptive": {
       "__class__": "ParamTocElement",
-      "ident": 204,
+      "ident": 206,
       "group": "motion",
       "name": "adaptive",
       "ctype": "uint8_t",
@@ -1958,7 +1978,7 @@
     },
     "flowStdFixed": {
       "__class__": "ParamTocElement",
-      "ident": 205,
+      "ident": 207,
       "group": "motion",
       "name": "flowStdFixed",
       "ctype": "float",
@@ -1966,10 +1986,57 @@
       "access": 0
     }
   },
+  "mrdeck": {
+    "topLeftX": {
+      "__class__": "ParamTocElement",
+      "ident": 210,
+      "group": "mrdeck",
+      "name": "topLeftX",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "topLeftY": {
+      "__class__": "ParamTocElement",
+      "ident": 211,
+      "group": "mrdeck",
+      "name": "topLeftY",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "botRightX": {
+      "__class__": "ParamTocElement",
+      "ident": 212,
+      "group": "mrdeck",
+      "name": "botRightX",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "botRightY": {
+      "__class__": "ParamTocElement",
+      "ident": 213,
+      "group": "mrdeck",
+      "name": "botRightY",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    },
+    "mode": {
+      "__class__": "ParamTocElement",
+      "ident": 214,
+      "group": "mrdeck",
+      "name": "mode",
+      "ctype": "uint16_t",
+      "pytype": "<H",
+      "access": 0
+    }
+  },
   "activeMarker": {
     "front": {
       "__class__": "ParamTocElement",
-      "ident": 209,
+      "ident": 216,
       "group": "activeMarker",
       "name": "front",
       "ctype": "uint8_t",
@@ -1978,7 +2045,7 @@
     },
     "back": {
       "__class__": "ParamTocElement",
-      "ident": 210,
+      "ident": 217,
       "group": "activeMarker",
       "name": "back",
       "ctype": "uint8_t",
@@ -1987,7 +2054,7 @@
     },
     "left": {
       "__class__": "ParamTocElement",
-      "ident": 211,
+      "ident": 218,
       "group": "activeMarker",
       "name": "left",
       "ctype": "uint8_t",
@@ -1996,7 +2063,7 @@
     },
     "right": {
       "__class__": "ParamTocElement",
-      "ident": 212,
+      "ident": 219,
       "group": "activeMarker",
       "name": "right",
       "ctype": "uint8_t",
@@ -2005,7 +2072,7 @@
     },
     "mode": {
       "__class__": "ParamTocElement",
-      "ident": 213,
+      "ident": 220,
       "group": "activeMarker",
       "name": "mode",
       "ctype": "uint8_t",
@@ -2014,7 +2081,7 @@
     },
     "poll": {
       "__class__": "ParamTocElement",
-      "ident": 214,
+      "ident": 221,
       "group": "activeMarker",
       "name": "poll",
       "ctype": "uint8_t",
@@ -2025,7 +2092,7 @@
   "firmware": {
     "revision0": {
       "__class__": "ParamTocElement",
-      "ident": 217,
+      "ident": 224,
       "group": "firmware",
       "name": "revision0",
       "ctype": "uint32_t",
@@ -2034,7 +2101,7 @@
     },
     "revision1": {
       "__class__": "ParamTocElement",
-      "ident": 218,
+      "ident": 225,
       "group": "firmware",
       "name": "revision1",
       "ctype": "uint16_t",
@@ -2043,7 +2110,7 @@
     },
     "modified": {
       "__class__": "ParamTocElement",
-      "ident": 219,
+      "ident": 226,
       "group": "firmware",
       "name": "modified",
       "ctype": "uint8_t",
@@ -2054,7 +2121,7 @@
   "lighthouse": {
     "method": {
       "__class__": "ParamTocElement",
-      "ident": 220,
+      "ident": 227,
       "group": "lighthouse",
       "name": "method",
       "ctype": "uint8_t",
@@ -2063,7 +2130,7 @@
     },
     "bsCalibReset": {
       "__class__": "ParamTocElement",
-      "ident": 221,
+      "ident": 228,
       "group": "lighthouse",
       "name": "bsCalibReset",
       "ctype": "uint8_t",
@@ -2072,7 +2139,7 @@
     },
     "systemType": {
       "__class__": "ParamTocElement",
-      "ident": 222,
+      "ident": 229,
       "group": "lighthouse",
       "name": "systemType",
       "ctype": "uint8_t",
@@ -2081,7 +2148,7 @@
     },
     "sweepStd": {
       "__class__": "ParamTocElement",
-      "ident": 223,
+      "ident": 230,
       "group": "lighthouse",
       "name": "sweepStd",
       "ctype": "float",
@@ -2090,7 +2157,7 @@
     },
     "sweepStd2": {
       "__class__": "ParamTocElement",
-      "ident": 224,
+      "ident": 231,
       "group": "lighthouse",
       "name": "sweepStd2",
       "ctype": "float",
@@ -2099,7 +2166,7 @@
     },
     "enLhRawStream": {
       "__class__": "ParamTocElement",
-      "ident": 225,
+      "ident": 232,
       "group": "lighthouse",
       "name": "enLhRawStream",
       "ctype": "uint8_t",
