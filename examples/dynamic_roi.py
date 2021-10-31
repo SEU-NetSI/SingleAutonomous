@@ -19,34 +19,30 @@ if len(sys.argv) > 2:
     URI = sys.argv[2]
     
 
-data = [[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0]]
-map = {
-    1: (0, 0),
-    2: (0, 1),
-    3: (0, 2),
-    4: (0, 3),
-    5: (1, 0),
-    6: (1, 1),
-    7: (1, 2),
-    8: (1, 3),
-    9: (2, 0),
-    10: (2, 1),
-    11: (2, 2),
-    12: (2, 3),
-    13: (3, 0),
-    14: (3, 1),
-    15: (3, 2),
-    0: (3, 3)
-}
+# data = [[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0]]
+size = 8
+data = [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+map = {}
 
 # display
 plt.ion()
 plt.show()
 fig, ax = plt.subplots()
 
+def setup():
+    for i in range(size):
+        for j in range(size):
+            map[i * size + j + 1] = (i, j)
+    map[0] = (size - 1, size - 1)
+    print(map)
+
+
 def display(front, roiindex):
     plt.cla()
-    print(roiindex, front)
+    print(roiindex, front, datetime.now().time())
     try:
         x = map.get(roiindex)[0]
         y = map.get(roiindex)[1]
@@ -56,8 +52,8 @@ def display(front, roiindex):
     
     # print(data)
     im = ax.imshow(data)
-    for i in range(4):
-        for j in range(4):
+    for i in range(size):
+        for j in range(size):
             # text = ax.text(j, i, data[i][j], ha="center", va="center", color="w")
             text = ax.text(j, i, data[i][j], ha="center", va="center", color="w")
     # plt.matshow(data)
@@ -83,6 +79,7 @@ def store(distance, roiindex):
     
 
 if __name__ == '__main__':
+    setup()
     # Initialize the low-level drivers (don't list the debug drivers)
     cflib.crtp.init_drivers(enable_debug_driver=False)
     cf = Crazyflie(rw_cache='./cache')
